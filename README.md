@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 4: _HTML Semântico_
-- [ ] 5: _[Projeto - Lessons Learned]()_
+- [ ] 5: _**Projeto** - Lessons Learned_
 
 #### Bloco 4: Introdução à JavaScript e Lógica de Programação
 
@@ -39,7 +39,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _JavaScript - Array e loop For_
 - [ ] 3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ ] 4: _JavaScript - Objetos e funções_
-- [ ] 5: _[Projeto - Playground Functions]()_
+- [ ] 5: _**Projeto** - Playground Functions_
 
 #### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
@@ -48,11 +48,11 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _JavaScript - Eventos_
 - [ ] 4: _JavaScript - Web Storage_
 - [ ] 5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5: _[Projeto - Arte com Pixels]()_
-- [ ] 6: _[Projeto - Lista de tarefas]()_
-- [ ] 7: _[Projeto - Meme Generator]()_
-- [ ] 7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 7: _[Projeto - Carta Misteriosa]()_
+- [ ] 5: _**Projeto** - Arte com Pixels_
+- [ ] 6: _**Projeto** - Lista de tarefas_
+- [ ] 7: _**Projeto** - Meme Generator_
+- [ ] 7: _**Projeto** - Adivinhe a Cor_
+- [ ] 7: _**Projeto** - Carta Misteriosa_
 
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -62,14 +62,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _CSS Flexbox - Part 1_
 - [ ] 4: _CSS Flexbox - Part 2_
 - [ ] 5: _CSS Responsivo - Mobile First_
-- [ ] 6: _[Projeto - Trybewarts]()_
+- [ ] 6: _**Projeto** - Trybewarts_
 
 #### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
 - [ ] 1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [ ] 3: _Primeiros passos em Jest_
-- [ ] 4: _[Projeto - JavaScript Testes Unitários]()_
+- [ ] 4: _**Projeto** - JavaScript Testes Unitários_
 
 #### Bloco 8: Higher Order Functions do JavaScript ES6
 
@@ -78,14 +78,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ ] 4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 6: _[Projeto - Zoo functions]()_
+- [ ] 6: _**Projeto** - Zoo functions_
 
 #### Bloco 9: JavaScript e Testes Assíncronos
 
 - [ ] 1: _JavaScript Assíncrono e Callbacks_
 - [ ] 2: _JavaScript Assíncrono - Fetch API e async/await_
 - [ ] 3: _Jest - Testes Assíncronos_
-- [ ] 4: _[Projeto - Carrinho de Compras]()_
+- [ ] 4: _**Projeto** - Carrinho de Compras_
 
 ## <u>Desenvolvimento Front-end</u> :hourglass_flowing_sand:
 
@@ -95,31 +95,31 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 1: _Introdução - React_
 - [ ] 1: _'Hello, world!' no React!_
 - [ ] 2: _Componentes React_
-- [ ] 3: _[Projeto - Sistema Solar]()_
+- [ ] 3: _**Projeto** - Sistema Solar_
 
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [ ] 1: _Components com estado e eventos_
 - [ ] 2: _Formulários no React_
-- [ ] 3: _[Projeto - Tryunfo]()_
+- [ ] 3: _**Projeto** - Tryunfo_
 
 #### Bloco 12: Ciclo de Vida de Componentes e React Router
 
 - [ ] 1: _Ciclo de vida de componentes_
 - [ ] 2: _React Router_
-- [ ] 3: _[Projeto - TrybeTunes]()_
+- [ ] 3: _**Projeto** - TrybeTunes_
 
 #### Bloco 13: Metodologias Ágeis
 
 - [ ] 1: _Metodologias Ágeis_
-- [ ] 2: _[Projeto - Frontend Online Store]()_
+- [ ] 2: _**Projeto** - Frontend Online Store_
 
 #### Bloco 14: Testes automatizados com React Testing Library
 
 - [ ] 1: _RTL - Primeiros passos_
 - [ ] 2: _RTL - Mocks e Inputs_
 - [ ] 3: _RTL - Testando React Router_
-- [ ] 4: _[Projeto - Testes em React]()_
+- [ ] 4: _**Projeto** - Testes em React_
 
 #### Bloco 15: Gerenciamento de estado com Redux
 
@@ -128,22 +128,22 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _Usando o Redux no React - Prática_
 - [ ] 4: _Usando o Redux no React - Actions Assíncronas_
 - [ ] 5: _Testes em React-Redux_
-- [ ] 6: _[Projeto - Trybe Wallet]()_
+- [ ] 6: _**Projeto** - Trybe Wallet_
 
 #### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 1: _[Projeto - Jogo de Trivia]()_
+- [ ] 1: _**Projeto** - Jogo de Trivia_
 
 #### Bloco 17: React & Context API
 
 - [ ] 1: _Context API do React_
 - [ ] 2: _React Hooks - useState e useContext_
 - [ ] 3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [ ] 4: _**Projeto** - StarWars Datatable com Context API e Hooks_
 
 #### Bloco 18: Projeto App de Receitas
 
-- [ ] 1: _[Projeto - App de Receitas]()_
+- [ ] 1: _**Projeto** - App de Receitas_
 
 
 
@@ -155,7 +155,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 1: _Utilizando Containers - Docker_
 - [ ] 2: _Manipulação e Criação de Imagens no Docker_
 - [ ] 3: _Orquestrando Containers com Docker Compose_
-- [ ] 4: _[Projeto - Docker Todo-list]()_
+- [ ] 4: _**Projeto** - Docker Todo-list_
 
 #### Bloco 20: Introdução à SQL
 
@@ -164,14 +164,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _Encontrando dados em um banco de dados_
 - [ ] 3: _Filtrando dados de forma específica_
 - [ ] 4: _Manipulando tabelas
-- [ ] 5: _[Projeto - All For One]()_
+- [ ] 5: _**Projeto** - All For One_
 
 #### Bloco 21: Funções SQL, JOINs e Normalização
 
 - [ ] 1: _Funções mais usadas no SQL_
 - [ ] 2: _Descomplicando JOINs_
 - [ ] 3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 4: _[Projeto - One For All]()_
+- [ ] 4: _**Projeto** - One For All_
 
 #### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
@@ -181,7 +181,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
 - [ ] 4: _Express - HTTP com Node.js_
 - [ ] 5: _Express - Middlewares_
-- [ ] 6: _[Projeto - Talker Manager]()_
+- [ ] 6: _**Projeto** - Talker Manager_
 
 #### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
@@ -190,7 +190,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _Arquitetura de Software - Camada de Controller e Service_
 - [ ] 3: _Arquitetura Web - Rest e Restful_
 - [ ] 4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 5: _[Projeto - Store Manager]()_
+- [ ] 5: _**Projeto** - Store Manager_
 
 #### Bloco 24: Node.js: ORM e Autenticação
 
@@ -198,14 +198,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 1: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 2: _ORM - Associations_
 - [ ] 3: _JWR - JSON Web Token_
-- [ ] 4: _[Projeto - API de Blogs]()_
+- [ ] 4: _**Projeto** - API de Blogs_
 
 #### Bloco 25: Deployment
 
 - [ ] 1: _Introdução - Deploy_
 - [ ] 1: _Infraestrutura - Deploy com Heroku_
 - [ ] 2: _Deploy Docker & Heroku_
-- [ ] 3: _[Projeto - Stranger Things]()_
+- [ ] 3: _**Projeto** - Stranger Things_
 
 #### Bloco 26: TypeScript
 
@@ -213,7 +213,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 1: _Introdução ao TypeScript_
 - [ ] 2: _Tipagem Estática e Generics_
 - [ ] 3: _Express com TypeScript_
-- [ ] 4: _[Projeto Trybe Smith]()_
+- [ ] 4: _**Projeto** Trybe Smith_
 
 #### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
@@ -222,25 +222,25 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 3: _Polimorfismo_
 - [ ] 4: _SOLID - Introdução_
 - [ ] 5: _SOLID - Continuação_
-- [ ] 6: _[Projeto - Trybers and Dragons]()_
+- [ ] 6: _**Projeto** - Trybers and Dragons_
 
 #### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [ ] 1: _**Projeto** - TFC - Trybe Futebol Clube_
 
 #### Bloco 29: Introdução ao MongoDB
 
 - [ ] 1: _Introdução - NoSQL_
 - [ ] 1: _MongoDB - Introdução_
 - [ ] 2: _Filter Operators_
-- [ ] 3: _[Projeto - DataFlights]()_
+- [ ] 3: _**Projeto** - DataFlights_
 
 #### Bloco 30: MongoDB: Updates Simples e Complexos
 
 - [ ] 1: _Updates Simples_
 - [ ] 2: _Updates Complexos - Arrays - Parte 1_
 - [ ] 3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 4: _[Projeto - Commerce]()_
+- [ ] 4: _**Projeto** - Commerce_
 
 #### MasterClass - VPS, CI/CD
 
@@ -249,7 +249,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 32: Projeto - App de Delivery
 
-- [ ] 1: _[Projeto - App de Delivery]()_
+- [ ] 1: _**Projeto** - App de Delivery_
 
 
 
@@ -261,28 +261,28 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _Aprendendo Python_
 - [ ] 2: _Entrada e Saída de Dados_
 - [ ] 3: _Testes_
-- [ ] 4: _[Projeto - Job Insights]()_
+- [ ] 4: _**Projeto** - Job Insights_
 
 #### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
 - [ ] 1: _Introdução à programação orientada a objetos_
 - [ ] 2: _Herança, Composição e Interfaces_
 - [ ] 3: _Padrões de projeto_
-- [ ] 4: _[Projeto - Relatórios de Estoque]()_
+- [ ] 4: _**Projeto** - Relatórios de Estoque_
 
 #### Bloco 35: Redes e Raspagem de Dados
 
 - [ ] 1: _Arquitetura de redes_
 - [ ] 2: _Redes de computadores, ferramenteas e segurança_
 - [ ] 3: _Raspagem de Dados_
-- [ ] 4: _[Projeto - Tech news]()_
+- [ ] 4: _**Projeto** - Tech news_
 
 #### Bloco 36: Algoritmos
 
 - [ ] 1: _Complexidade de Algoritmos_
 - [ ] 2: _Recursividade e Estratégias para a solução de problemas_
 - [ ] 3: _Algoritmos de ordenação e busca_
-- [ ] 4: _[Projeto - Algoritmos]()_
+- [ ] 4: _**Projeto** - Algoritmos_
 
 #### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
@@ -290,12 +290,12 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _Arrays_
 - [ ] 3: _Hashmap e Dict_
 - [ ] 4: _Set_
-- [ ] 5: _[Projeto - Restaurant Orders]()_
+- [ ] 5: _**Projeto** - Restaurant Orders_
 
 #### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
 
 - [ ] 1: _Nó e Listas Encadeadas_
 - [ ] 2: _Pilhas e Filas_
-- [ ] 3: _[Projeto - TING - Trybe Is Not Google]()_
+- [ ] 3: _**Projeto** - TING - Trybe Is Not Google_
 
 # [...]
