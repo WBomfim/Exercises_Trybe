@@ -1,10 +1,10 @@
 # <u>Fundamentos do Desenvolvimento Web</u>
 
-Nesse módulo aprendi a base para o desenvolvimento web, me preparando para os módulos de front-end e back-end.
+Nesse módulo irei aprender a base para o desenvolvimento web, me preparando para os módulos de front-end e back-end.
 
 
 
-### **<u>Competências adquiridas:</u>**
+### **<u>Competências que serão adquiridas:</u>**
 
 - Utilizar o bash.
 
@@ -26,7 +26,7 @@ Nesse módulo aprendi a base para o desenvolvimento web, me preparando para os m
 
   
 
-### **<u>Conteúdos abordados:</u>**
+### **<u>Conteúdos que serão abordados:</u>**
 
 - Unix e Shell
 
@@ -48,4 +48,4 @@ Nesse módulo aprendi a base para o desenvolvimento web, me preparando para os m
 
   
 
-Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de "Fundamentos do Desenvolvimento Web" do curso da [Trybe](https://www.betrybe.com/).
+Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolverei ao longo do módulo de "Fundamentos do Desenvolvimento Web" do curso da [Trybe](https://www.betrybe.com/).
