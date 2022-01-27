@@ -1,4 +1,4 @@
-# <u>Fundamentos do Desenvolvimento Web</u>
+# <u>Fundamentos do Desenvolvimento Web</u>:hourglass_flowing_sand:
 
 Nesse módulo irei aprender a base para o desenvolvimento web, me preparando para os módulos de front-end e back-end.
 
