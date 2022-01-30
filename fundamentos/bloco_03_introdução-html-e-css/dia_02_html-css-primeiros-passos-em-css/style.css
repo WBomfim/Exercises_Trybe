@@ -1,0 +1,33 @@
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-size: sans-serif;
+  text-align: center;
+}
+ul {
+  background-color: aqua;
+}
+.background-color {
+  background-color: rgb(143, 98, 185);
+}
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+ul {
+  font-style: italic;
+  line-height: 10mm;
+}
+#amarelo {
+  background-color: yellow;
+}
+#vermelho {
+  text-decoration: line-through;
+  background-color: red;
+}
+#marrom {
+  background-color: rgb(111, 74, 50);
+}
