@@ -1,0 +1,50 @@
+.list-style {
+  background-color: yellow;
+
+}
+.list-color {
+  color: green;
+}
+.list-font-property {
+  text-transform: uppercase;
+}
+h1, h2 {
+  color: red;
+}
+.header-in-italic {
+  font-size: 40px;
+  border: 1px;
+  border-color: solid black;
+}
+li {
+  font-size: 20px;
+}
+li.list-style {
+  font-weight: 1000;
+}
+.list-language {
+  color: blue;
+}
+.java-in-list {
+  background-color: pink;
+}
+#stack:hover {
+  font-weight: 1000;
+  color: orange;
+}
+#w3schools:hover {
+  font-weight: 1000;
+  color: green;
+}
+#mdn:hover {
+  font-weight: 1000;
+  color: black;
+}
+#devdocs:hover {
+  font-weight: 1000;
+  color: yellow;
+}
+#trybe:hover {
+  font-weight: 1000;
+  color: green;
+}
