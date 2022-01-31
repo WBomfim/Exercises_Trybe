@@ -1,0 +1,41 @@
+div:hover {
+  border: solid 3px;
+  border-color: rgb(0, 0, 0);
+}
+.cor-primaria {
+  background-color: red;
+}
+.cor-secundaria {
+  background-color: orange;
+}
+.cor-complementar {
+  background-color: green;
+  padding: 2px;
+}
+.cor-escura {
+  background-color: rgb(109, 45, 8);
+}
+.cor-clara {
+  background-color: aqua;
+}
+#cor-primaria {
+  font-size: 25px;
+}
+#cor-secundaria {
+  font-family: Verdana, sans-serif;
+}
+#cor-complementar {
+  font-size: 20px;
+  font-family:'Helvetica Neue', sans-serif;
+  text-decoration: underline;
+}
+#cor-escura {
+  color: aliceblue;
+}
+#cor-clara {
+  font-size: 25px;
+ font-weight: 100;
+}
+h3 {
+  font-style: italic;
+}
