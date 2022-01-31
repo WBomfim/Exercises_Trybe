@@ -25,11 +25,11 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 3: Introdução à HTML & CSS
 
-- [ ] 1: _Introdução - HTML & CSS_
-- [ ] 1: _HTML & CSS - Estruturas de página_
-- [ ] 2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 4: _HTML Semântico_
+- [x] 1: _Introdução - HTML & CSS_
+- [x] 1: _HTML & CSS - Estruturas de página_
+- [x] 2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3: _HTML & CSS - Seletores e posicionamento_
+- [x] 4: _HTML Semântico_
 - [ ] 5: _**Projeto** - Lessons Learned_
 
 #### Bloco 4: Introdução à JavaScript e Lógica de Programação
