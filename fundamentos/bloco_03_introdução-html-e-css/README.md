@@ -1,5 +1,5 @@
-# BLOCO 3 - Unix e Bash:hourglass_flowing_sand:
+# BLOCO 3 - Introdução à HTML e CSS
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... 
+Ness bloco aprendi como estruturar páginas **HTML** estilizadas com o **CSS**.
