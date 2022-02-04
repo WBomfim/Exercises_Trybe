@@ -1,4 +1,4 @@
-# DIA 03
+# DIA 03 - HTML e CSS - Seletores e Posicionamento
 
 Hoje aprendi como alterar o layout da página utilizando o **CSS**, e também aprendi a utilizar regras de seleção para estilizar um elemento distinto, tendo isso em vista, fui capaz de:
 

@@ -1,4 +1,4 @@
-# DIA 04
+# DIA 04 - HTML Semântico
 
 Hoje aprendi sobre HTML semântico e suas principais tags, e também compreendi as direrenças entre elementos in block e in line, tendo isso em vista, fui capaz de:
 
