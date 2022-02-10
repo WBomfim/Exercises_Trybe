@@ -1,4 +1,4 @@
-# BLOCO 1 - Unix e Bash
+# BLOCO 01 - Unix e Bash
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). 
 

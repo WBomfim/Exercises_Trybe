@@ -1,4 +1,4 @@
-# BLOCO 2 - Git, GitHub e Internet
+# BLOCO 02 - Git, GitHub e Internet
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). 
 
