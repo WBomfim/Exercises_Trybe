@@ -74,7 +74,7 @@ let listItems = document.querySelectorAll('.numbersListItems');
 for(let index of listItems) {
   let item = index;
   if (item.innerText.includes('Nove') || item.innerText.includes('Dez')) {
-    list.removeChild(item);
+    numbersList.removeChild(item);
   }
 }
 
