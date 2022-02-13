@@ -72,3 +72,9 @@ function editHolidayDays() {
 }
 
 buttonHoliday.addEventListener('click', editHolidayDays);
+
+// Exercício 4
+const buttonFriday = createButton('Sexta-feira');
+buttonFriday.id = 'btn-friday';
+divButtonsContainer.appendChild(buttonFriday);
+
