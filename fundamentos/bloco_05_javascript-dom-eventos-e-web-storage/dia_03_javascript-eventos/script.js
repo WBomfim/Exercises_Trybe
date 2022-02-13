@@ -120,11 +120,11 @@ let days = document.getElementById('days');
 
 function increaseFont(event) {
   event.target.style.fontSize = '30px';
-}
+};
 
 function decreaseFont(event) {
   event.target.style.fontSize = '20px';
-}
+};
 
 days.addEventListener('mouseover', increaseFont);
 days.addEventListener('mouseout', decreaseFont);
@@ -135,7 +135,7 @@ function createTasks (task) {
   tasks.className = 'tasks';
   tasks.innerText = task;
   document.querySelector('.my-tasks').appendChild(tasks);
-}
+};
 
 createTasks('Finalizar Projeto');
 
@@ -145,6 +145,20 @@ function addColorTasks(color) {
   colorTask.className = 'task';
   colorTask.style.backgroundColor = color;
   document.querySelector('.my-tasks').appendChild(colorTask);
-}
+};
 
 addColorTasks('green');
+
+// Exercício 9
+let selectTask = document.getElementsByClassName('task-selected'); //Precisa ser HTML Coletion.
+let task = document.querySelector('.task');
+
+function changeClass(event) {
+  if (selectTask.length === 0) {
+    event.target.className = 'task-selected';
+  } else {
+    event.target.className = 'task';
+  };
+};
+  
+task.addEventListener('click', changeClass);
