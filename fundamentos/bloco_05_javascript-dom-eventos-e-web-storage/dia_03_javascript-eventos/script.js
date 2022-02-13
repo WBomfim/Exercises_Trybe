@@ -128,3 +128,14 @@ function decreaseFont(event) {
 
 days.addEventListener('mouseover', increaseFont);
 days.addEventListener('mouseout', decreaseFont);
+
+// Exercício 7
+function createTask (task) {
+  const myTasksList = document.querySelector('.my-tasks');
+  const tasks = document.createElement('span');
+  tasks.className = 'tasks';
+  tasks.innerText = task;
+  myTasksList.appendChild(tasks);
+}
+
+createTask('Finalizar Projeto');
