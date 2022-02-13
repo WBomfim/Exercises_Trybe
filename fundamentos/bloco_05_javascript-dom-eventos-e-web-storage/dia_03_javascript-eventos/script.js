@@ -130,12 +130,21 @@ days.addEventListener('mouseover', increaseFont);
 days.addEventListener('mouseout', decreaseFont);
 
 // Exercício 7
-function createTask (task) {
-  const myTasksList = document.querySelector('.my-tasks');
+function createTasks (task) {
   const tasks = document.createElement('span');
   tasks.className = 'tasks';
   tasks.innerText = task;
-  myTasksList.appendChild(tasks);
+  document.querySelector('.my-tasks').appendChild(tasks);
 }
 
-createTask('Finalizar Projeto');
+createTasks('Finalizar Projeto');
+
+// Exercício 8
+function addColorTasks(color) {
+  const colorTask = document.createElement('div');
+  colorTask.className = 'task';
+  colorTask.style.backgroundColor = color;
+  document.querySelector('.my-tasks').appendChild(colorTask);
+}
+
+addColorTasks('green');
