@@ -110,7 +110,21 @@ function editFridayDays() {
         fridayDays[index].style.color = 'black';
       };
     };
-  }
+  };
 };
 
 buttonFriday.addEventListener('click', editFridayDays);
+
+// Exercício 6
+let days = document.getElementById('days');
+
+function increaseFont(event) {
+  event.target.style.fontSize = '30px';
+}
+
+function decreaseFont(event) {
+  event.target.style.fontSize = '20px';
+}
+
+days.addEventListener('mouseover', increaseFont);
+days.addEventListener('mouseout', decreaseFont);
