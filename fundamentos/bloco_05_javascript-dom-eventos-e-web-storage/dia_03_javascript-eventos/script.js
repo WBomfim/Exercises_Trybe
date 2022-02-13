@@ -32,7 +32,7 @@ function createDays() {
       classDaysListItems += ' friday';
     };
 
-    daysListItem.className = classDaysListItems
+    daysListItem.className = classDaysListItems;
     daysList.appendChild(daysListItem);
   };
 };
@@ -43,8 +43,8 @@ createDays();
 function createButton(buttonName) {
   const button = document.createElement('button');
   button.innerText = buttonName;
-  return button
-}
+  return button;
+};
 
 const buttonHoliday = createButton('Feriados');
 buttonHoliday.id = 'btn-holiday';
@@ -55,21 +55,23 @@ divButtonsContainer.appendChild(buttonHoliday);
 function editHolidayDays() {
   const holidayDays = document.querySelectorAll('.holiday');
   
-  if (holidayDays[0].style.backgroundColor == ''){
+  if (holidayDays[0].style.backgroundColor == '') {
     for (let index in holidayDays) {
       holidayDays[index].style.backgroundColor = 'rgb(0, 150, 8)';
-      holidayDays[index].style.color = 'black'
-    }
-  }
+      holidayDays[index].style.color = 'black';
+    };
+  };
 
-  if (holidayDays[0].style.backgroundColor == 'rgb(0, 150, 8)'){
+  if (holidayDays[0].style.backgroundColor == 'rgb(0, 150, 8)') {
     for (let index in holidayDays) {
       holidayDays[index].style.backgroundColor = '';
-      holidayDays[index].style.color = '#777'
-    }
-  }
-
-}
+      holidayDays[index].style.color = '#777';
+      if (holidayDays[index].innerText === 'SEXTOUU!!!') {
+        holidayDays[index].style.color = 'blue';
+      };
+    };
+  };
+};
 
 buttonHoliday.addEventListener('click', editHolidayDays);
 
@@ -78,3 +80,37 @@ const buttonFriday = createButton('Sexta-feira');
 buttonFriday.id = 'btn-friday';
 divButtonsContainer.appendChild(buttonFriday);
 
+// Exercício 5
+function fridayDays() {
+  const fridayDays = document.querySelectorAll('.friday');
+  let days = [];
+  for (let index = 0; index < fridayDays.length; index += 1) {
+    days.push(fridayDays[index].innerHTML);
+  }
+  return days;
+}
+
+const numbersFridayDays = fridayDays();
+
+function editFridayDays() {
+  const fridayDays = document.querySelectorAll('.friday');
+
+  if (fridayDays[0].innerText == numbersFridayDays[0]) {
+    for (let index in fridayDays) {
+      fridayDays[index].innerText = 'SEXTOUU!!!';
+      fridayDays[index].style.color = 'blue';
+    };
+  };
+
+  if (fridayDays[0].innerText === 'SEXTOUU!!!'){
+    for (let index in fridayDays) {
+      fridayDays[index].innerText = numbersFridayDays[index];
+      fridayDays[index].style.color = '#777';
+      if (fridayDays[index].style.backgroundColor === 'rgb(0, 150, 8)'){
+        fridayDays[index].style.color = 'black';
+      };
+    };
+  }
+};
+
+buttonFriday.addEventListener('click', editFridayDays);
