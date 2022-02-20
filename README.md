@@ -45,19 +45,16 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [x] 1: _JavaScript - DOM e seletores_
 - [x] 2: _JavaScript - Trabalhando com elementos_
-- [ ] 3: _JavaScript - Eventos_
-- [ ] 4: _JavaScript - Web Storage_
-- [ ] 5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5: _**Projeto** - Arte com Pixels_
-- [ ] 6: _**Projeto** - Lista de tarefas_
-- [ ] 7: _**Projeto** - Meme Generator_
-- [ ] 7: _**Projeto** - Adivinhe a Cor_
-- [ ] 7: _**Projeto** - Carta Misteriosa_
+- [x] 3: _JavaScript - Eventos_
+- [x] 4: _JavaScript - Web Storage_
+- [x] 5: _Fundamentos - JavaScript - Projetos_
+- [x] 5: _**Projeto** - Arte com Pixels_
+- [x] 6: _**Projeto** - Lista de tarefas_
 
 #### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 1: _HTML & CSS - Forms_
-- [ ] 2: _Bibliotecas JavaScript e Frameworks CSS_
+- [x] 1: _HTML & CSS - Forms_
+- [x] 2: _Bibliotecas JavaScript e Frameworks CSS_
 - [ ] 3: _Introdução - CSS Flexbox_
 - [ ] 3: _CSS Flexbox - Part 1_
 - [ ] 4: _CSS Flexbox - Part 2_
