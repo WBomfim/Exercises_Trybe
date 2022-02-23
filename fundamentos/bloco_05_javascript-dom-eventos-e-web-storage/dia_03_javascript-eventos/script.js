@@ -147,7 +147,7 @@ function addColorTasks(color) {
   document.querySelector('.my-tasks').appendChild(colorTask);
 };
 
-addColorTasks('green');
+addColorTasks('red');
 
 // Exercício 9
 let selectTask = document.getElementsByClassName('task-selected'); //Precisa ser HTML Coletion.
@@ -162,3 +162,20 @@ function changeClass(event) {
 };
   
 task.addEventListener('click', changeClass);
+
+// Exercício 10
+function addTaskInTheDay(event) {
+  let colorDayEvent = event.target.style.color;
+  let selectTaskClass = selectTask[0].className;
+  if (selectTaskClass === 'task-selected') {
+      event.target.style.color = 'red';
+      event.target.style.fontWeight = 'bold';
+  }; 
+
+  if(selectTaskClass === 'task-selected' && colorDayEvent === 'red') {
+    event.target.style.color = '#777';
+    event.target.style.fontWeight = 'lighter';
+  };
+};
+
+days.addEventListener('click', addTaskInTheDay);

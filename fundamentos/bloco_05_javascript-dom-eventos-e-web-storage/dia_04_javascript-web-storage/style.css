@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+}
+
+header {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.dark {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border: solid black 0.2px;
+  display: inline-block;
+}
+
+.white {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: solid black 0.2px;
+  display: inline-block;
+}
+
+.blue {
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  border: solid black 0.2px;
+  display: inline-block;
+}
+
+.selector {
+  display: inline-block;
+  margin-right: 25px;
+  align-items: center;
+}
+
+.font {
+  margin-right: 0;
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+.center {
+  position: relative;
+  transform: translateY(30%);
+}
+
+input {
+  height: 23px;
+  width: 60px;
+  position: relative;
+  transform: translateY(-10%);
+  font-size: 19px;
+}
+
+select {
+  height: 28px;
+  width: 120px;
+  position: relative;
+  transform: translateY(-10%);
+  font-size: 19px;
+}
+
+.text {
+  width: 70%;
+  margin: 20px auto;
+}
