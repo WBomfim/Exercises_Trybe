@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: justify;
+}
+
+header {
+  background-color: rgb(197, 192, 192);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header p {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header nav {
+  width: 80%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bolder;
+  color: blue;
+}
+
+aside h2 {
+  font-size: 22px;
+}
+
+main {
+  margin: 15px;
+}
+
+.main-content h1 {
+  font-size: 23px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+footer {
+  padding: 15px;
+  background-color: rgb(223, 223, 223);
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+
+  header p {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  header ul {
+    font-size: 25px;
+  }
+
+  main {
+    margin: 45px;
+  }
+  
+  .asides {
+    display: flex;
+  } 
+
+  .aside-one {
+    flex-basis: 320px;
+    margin-right: 30px;
+    padding-right: 20px;
+  }
+
+  aside h2 {
+    font-size: 28px;
+  }
+
+  .main-content h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+}
+
+@media screen and (min-width: 1350px) {
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 130px;
+    position: fixed;
+    top: 0;
+  }
+
+  header p {
+    flex-grow: 4;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  header nav {
+    width: 30%;
+    flex-grow: 1;
+  }
+
+  header nav ul {
+    justify-content: space-around;
+  }
+
+  header nav ul li {
+    margin-right: 25px;
+  }
+
+  .main-content h1 {
+    font-size: 55px;
+  }
+
+  .main-content {
+    font-size: 25px;
+    width: 70%;
+    margin-right: 390px;
+    margin-top: 120px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .asides {
+    flex-direction: column;
+    margin-top: 20px;
+    position: fixed;
+    margin-top: 140px;
+  }
+
+  aside h2 {
+    margin-left: 20px;
+  }
+}
