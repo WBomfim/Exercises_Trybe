@@ -11,7 +11,7 @@ header {
   width: 25px;
   height: 25px;
   background-color: black;
-  border: solid black 0.2px;
+  border: solid white 0.2px;
   display: inline-block;
 }
 
@@ -67,4 +67,10 @@ select {
 .text {
   width: 70%;
   margin: 20px auto;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 40px;
 }

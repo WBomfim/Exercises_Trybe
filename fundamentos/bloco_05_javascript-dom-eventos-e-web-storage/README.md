@@ -1,8 +1,8 @@
-# BLOCO 05 - JavaScript: DOM, Eventos e Web Storage - :hourglass_flowing_sand:
+# BLOCO 05 - JavaScript: DOM, Eventos e Web Storage
 
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... :hourglass_flowing_sand:
+Nesse bloco aprendi como manipular o **DOM**, **JavaScript** e **CSS**, também tive uma introdução a como salvar infomarções no localStorage e sessionStorage. 
 
 
 
