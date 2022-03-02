@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0%;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  background-color: rgb(80, 168, 58);
+  width: 100%;
+  text-align: center;
+  border: 3px solid rgb(8, 97, 8);
+}
+
+#titulo {
+  font-size: 60px;
+  color: rgb(253, 251, 251);
+  margin-top: 10px;
+  margin-bottom: 13px;
+  text-decoration: underline;
+}
+
+#minha_foto {
+  display: inline-block;
+  width: 500px;
+  margin-top: 9px;
+  padding-top: 40px;
+  border-radius: 50%;
+}
+
+main {
+  padding-top: 65px;
+  margin-left: 10px;
+}
+
+#licoes_aprendidas {
+  text-align: left;
+  padding-left: 33px;
+}
+
+#licoes_a_aprender {
+  text-align: left;
+  padding-left: 30px;
+}
+
+#table {
+  display: inline-block;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#dia_trybe {
+  text-align: center;
+}
+
+.listas {
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+td {
+  padding-left: 7px;
+  padding-right: 7px;
+  border: 2px solid black;
+}
+
+.paragrafo {
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 35px;
+}
+
+article {
+  padding-top: 30px;
+}
+
+aside {
+  padding-top: 30px;
+}
+
+footer {
+  background-color: rgb(80, 168, 58);
+  padding: 10px;
+  border: 3px solid rgb(8, 97, 8);
+  font-size: 30px;
+  color: white;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 48%;
+  padding-bottom: 50px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
