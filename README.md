@@ -55,11 +55,11 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [x] 1: _HTML & CSS - Forms_
 - [x] 2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 3: _Introdução - CSS Flexbox_
-- [ ] 3: _CSS Flexbox - Part 1_
-- [ ] 4: _CSS Flexbox - Part 2_
-- [ ] 5: _CSS Responsivo - Mobile First_
-- [ ] 6: _**Projeto** - Trybewarts_
+- [x] 3: _Introdução - CSS Flexbox_
+- [x] 3: _CSS Flexbox - Part 1_
+- [x] 4: _CSS Flexbox - Part 2_
+- [x] 5: _CSS Responsivo - Mobile First_
+- [x] 6: _**Projeto** - Trybewarts_
 
 #### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
