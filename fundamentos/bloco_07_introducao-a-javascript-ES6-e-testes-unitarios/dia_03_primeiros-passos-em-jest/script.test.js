@@ -1,4 +1,4 @@
-const {sum, myRemove, myFizzBuzz} = require('./script.js');
+const {sum, myRemove, myFizzBuzz, encode, decode, techList, hydrate} = require('./script.js');
 
 describe('Sum test', () => {
   it('sums two values', () => {
@@ -59,4 +59,95 @@ describe('Return fizz or buzz according to numbers', () => {
   it('Return fizzbuzz for A', () => {
     expect(myFizzBuzz('A')).toBe(false);
   })
+});
+
+describe('Test for encode', () => {
+  it('Is function', () => {
+    expect(typeof encode).toBe('function');
+  })
+
+  it('Convert letter', () => {
+    expect(encode('a e i o u')).toBe('1 2 3 4 5');
+  })
+
+  it('Not convert letter', () => {
+    expect(encode('b c d f h w')).toBe('b c d f h w');
+  })
+
+  it('Returned phrase size', () => {
+    expect(encode('Frase').length).toBe(5);
+  })
+});
+
+describe('Test for decode', () => {
+  it('Is function', () => {
+    expect(typeof encode).toBe('function');
+  })
+
+  it('Convert number', () => {
+    expect(decode('1 2 3 4 5')).toBe('a e i o u');
+  })
+
+  it('Not convert number', () => {
+    expect(decode('6 7 8 9 0')).toBe('6 7 8 9 0');
+  })
+
+
+  it('Returned phrase size', () => {
+
+    expect(decode('Fr1s2').length).toBe(5);
+  })
+});
+
+describe('Testa a função techList', () => {
+  it('Testa se a função techList é definida', () => {
+    expect(techList).toBeDefined();
+  });
+  it('Testa se techList é uma função', () => {
+    expect(typeof techList).toBe('function');
+  });
+  it('Lista com 5 tecnologias deve retornar uma lista de objetos ordenados', () => {
+    expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas')).toEqual([
+      {
+        tech: 'CSS',
+        name: 'Lucas'
+      },
+      {
+        tech: 'HTML',
+        name: 'Lucas'
+      },
+      {
+        tech: 'JavaScript',
+        name: 'Lucas'
+      },
+      {
+        tech: 'Jest',
+        name: 'Lucas'
+      },
+      {
+        tech: 'React',
+        name: 'Lucas'
+      }
+    ]);
+  });
+  it('Lista com 0 tecnologias deve retornar uma mensagem de erro "Vazio!"', () => {
+    expect(techList([], 'Lucas')).toBe('Vazio!');
+  });
+});
+
+describe('Testa a função hydrate', () => {
+  it('Testa se a função hydrate é definida', () => {
+    expect(hydrate).toBeDefined();
+  });
+  it('Testa se hydrate é uma função', () => {
+    expect(typeof hydrate).toBe('function');
+  });
+  it('Ao receber uma string retorne a sugestão de quantos copos de água deve-se beber', () => {
+    expect(hydrate('1 cerveja')).toBe('1 copo de água');
+    expect(hydrate('1 cachaça, 5 cervejas e 1 copo de vinho')).toBe('7 copos de água');
+    expect(hydrate('2 shots de tequila, 2 cervejas e 1 corote')).toBe('5 copos de água');
+    expect(hydrate('1 copo de catuaba, 1 cervejas e 1 copo de vinho')).toBe('3 copos de água');
+    expect(hydrate('4 caipirinhas e 2 cervejas')).toBe('6 copos de água');
+    expect(hydrate(' ')).toBe('Você ainda não bebeu');
+  });
 });
