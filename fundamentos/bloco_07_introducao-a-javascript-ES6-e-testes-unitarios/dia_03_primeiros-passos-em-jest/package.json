@@ -1,0 +1,15 @@
+{
+  "name": "dia_03_primeiros-passos-em-jest",
+  "version": "1.0.0",
+  "description": "Hoje aprendi a entender o que são e para que servem testes unitários, aplicar o conceito de TDD, ou seja, o desenvolvimento orientado a testes e  criar testes unitários a partir do framework **Jest** .",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
