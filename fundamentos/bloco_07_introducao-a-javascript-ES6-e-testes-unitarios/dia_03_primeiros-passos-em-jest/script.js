@@ -107,6 +107,62 @@ const hydrate = (phrase) => {
   return message
 }
 
+// Dados Bônus
+const professionalBoard = [
+  {
+    id: '8579-6',
+    firstName: 'Ana',
+    lastName: 'Gates',
+    specialities: ['UX', 'Design'],
+  },
+  {
+    id: '5569-4',
+    firstName: 'George',
+    lastName: 'Jobs',
+    specialities: ['Frontend', 'Redux', 'React', 'CSS'],
+  },
+  {
+    id: '4456-4',
+    firstName: 'Leila',
+    lastName: 'Zuckerberg',
+    specialities: ['Context API', 'RTL', 'Bootstrap'],
+  },
+  {
+    id: '1256-4',
+    firstName: 'Linda',
+    lastName: 'Bezos',
+    specialities: ['Hooks', 'Context API', 'Tailwind CSS'],
+  },
+  {
+    id: '9852-2-2',
+    firstName: 'Jeff',
+    lastName: 'Cook',
+    specialities: ['Ruby', 'SQL'],
+  },
+  {
+    id: '4678-2',
+    firstName: 'Paul',
+    lastName: 'Dodds',
+    specialities: ['Backend'],
+  },
+];
+
+const searchEmployee = (id, detail) => {
+  let employeeInformation = '';
+  for (let index in professionalBoard) {
+    if (professionalBoard[index].id === id) {
+      employeeInformation = professionalBoard[index];
+    }
+  }
+  if (employeeInformation === '') {
+    throw new Error("ID não identificada");
+  }
+  if (employeeInformation[detail] === undefined) {
+    throw new Error("Informação indisponível");
+  }
+  return employeeInformation[detail];
+};
+
 module.exports = {
   sum, 
   myRemove, 
@@ -114,5 +170,6 @@ module.exports = {
   encode,
   decode,
   techList,
-  hydrate
+  hydrate,
+  searchEmployee
 };

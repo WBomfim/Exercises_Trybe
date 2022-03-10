@@ -1,4 +1,4 @@
-const {sum, myRemove, myFizzBuzz, encode, decode, techList, hydrate} = require('./script.js');
+const {sum, myRemove, myFizzBuzz, encode, decode, techList, hydrate, searchEmployee} = require('./script.js');
 
 describe('Sum test', () => {
   it('sums two values', () => {
@@ -149,5 +149,32 @@ describe('Testa a função hydrate', () => {
     expect(hydrate('1 copo de catuaba, 1 cervejas e 1 copo de vinho')).toBe('3 copos de água');
     expect(hydrate('4 caipirinhas e 2 cervejas')).toBe('6 copos de água');
     expect(hydrate(' ')).toBe('Você ainda não bebeu');
+  });
+});
+
+describe('Testa a função searchEmployee', () => {
+  it('Testa se searchEmployee é uma função', () => {
+    expect(typeof searchEmployee).toBe('function');
+  });
+  it('Testa o retorno do primeiro nome do id consultado', () => {
+    expect(searchEmployee('8579-6', 'firstName')).toBe('Ana');
+  });
+  it('Testa o retorno do sobrenome nome do id consultado', () => {
+    expect(searchEmployee('8579-6', 'lastName')).toBe('Gates');
+  });
+  it('Testa se retorna um array com todas as habilidades do id informado', () => {
+    expect(searchEmployee('5569-4', 'specialities')).toContain('Frontend', 'Redux', 'React', 'CSS');
+  });
+  it('Testa se um erro é lançado quando o id não existir', () => {
+    expect(() => { searchEmployee('1234-5', 'firstname') }).toThrow();
+  });
+  it('Testa a mensagem para o erro lançado quando o id não existe', () => {
+    expect(() => { searchEmployee('1234-5', 'firstname') }).toThrowError(new Error("ID não identificada"));
+  });
+  it('Testa se um erro é lançado quando a informação de um id não existe', () => {
+    expect(() => { searchEmployee('4456-4', 'softSkills') }).toThrow();
+  });
+  it('Testa a mensagem para o erro lançado quando a informação não existe', () => {
+    expect(() => { searchEmployee('4456-4', 'softSkills') }).toThrowError(new Error("Informação indisponível"));
   });
 });
