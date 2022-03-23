@@ -1,0 +1,15 @@
+{
+  "name": "dia_02_javascript-assincrono-fetch-api-e-async-await",
+  "version": "1.0.0",
+  "description": "Hoje aprendi a utilizar **then()** e **catch()**, utilizar **async/await** em conjunto com o **try/catch** e fazer integrações com **APIs** de terceiros.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

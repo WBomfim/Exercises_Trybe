@@ -1,0 +1,16 @@
+h1 {
+  font-size: 60px;
+  text-decoration: underline;
+}
+
+ul {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  font-size: 25px;
+  list-style: none;
+  padding: 10px;
+}
