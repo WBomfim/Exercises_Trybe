@@ -8,7 +8,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 
 
-## <u>Fundamentos do Desenvolvimento Web</u> :hourglass_flowing_sand:
+## <u>Fundamentos do Desenvolvimento Web</u>
 
 #### Bloco 1: Introdução - Unix & Bash
 
@@ -80,9 +80,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 #### Bloco 9: JavaScript e Testes Assíncronos
 
 - [x] 1: _JavaScript Assíncrono e Callbacks_
+
 - [x] 2: _JavaScript Assíncrono - Fetch API e async/await_
+
 - [x] 3: _Jest - Testes Assíncronos_
-- [ ] 4: _**Projeto** - Carrinho de Compras_
+
+- [x] 4: _**Projeto** - Shopping Cart_
+
+  
 
 ## <u>Desenvolvimento Front-end</u> :hourglass_flowing_sand:
 
