@@ -101,7 +101,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 1: _Components com estado e eventos_
+- [x] 1: _Components com estado e eventos_
 - [ ] 2: _Formulários no React_
 - [ ] 3: _**Projeto** - Tryunfo_
 
