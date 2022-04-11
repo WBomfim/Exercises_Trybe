@@ -1,13 +1,16 @@
 import React, { Component } from "react";
+import ErrorForm from "../ErrorForm/ErrorForm";
 import './PersonalForm.css'
 
 class PersonalForm extends Component {
   render() {
-    const { value, handleChange } = this.props;
+    const { value, handleChange} = this.props;
 
     return (
       <div className="PersonalForm">
+        <h2>Informações Pessoais</h2>
         <fieldset>
+        <ErrorForm error={value.error}/>
           <label>
             Name:
             <input

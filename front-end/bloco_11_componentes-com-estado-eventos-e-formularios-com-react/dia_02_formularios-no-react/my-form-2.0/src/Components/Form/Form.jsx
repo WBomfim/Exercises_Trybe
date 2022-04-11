@@ -12,14 +12,18 @@ class Form extends Component {
       cidade: "",
       estado: "",
       tipo: "",
+      error: "",
     }
   }
 
   handleChange = (event) => {
     const { name } = event.target;
     const value = event.target === 'checkbox' ? event.target.checked : event.target.value;
-    console.log(value);
-    this.setState({ [name]: value });
+    this.setState({ [name]: event.target.name === 'name' ? value.toUpperCase() : value });
+  }
+
+  validateForm = () => {
+    
   }
 
   render() {
@@ -27,6 +31,7 @@ class Form extends Component {
      <div>
        <form action="">
           <PersonalForm value={this.state} handleChange={this.handleChange} />
+          <button type="submit">Enviar</button>
        </form>
      </div>
    )
