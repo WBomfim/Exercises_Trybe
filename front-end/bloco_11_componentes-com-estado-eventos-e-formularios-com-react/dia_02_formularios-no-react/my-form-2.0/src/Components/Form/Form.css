@@ -1,3 +1,14 @@
-.inputs {
-  margin-left: 10px;
+.formAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+}
+
+.show-form {
+  width: 20%;
+  text-align: start;
 }
