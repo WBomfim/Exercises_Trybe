@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PersonalForm from "../PersonalForm/PersonalForm";
+import verifyForm from "../../helpers/verifyForm";
 
 class Form extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class Form extends Component {
       cidade: "",
       estado: "",
       tipo: "",
-      error: "",
+      errors: "",
     }
   }
 
@@ -22,16 +23,25 @@ class Form extends Component {
     this.setState({ [name]: event.target.name === 'name' ? value.toUpperCase() : value });
   }
 
-  validateForm = () => {
-    
+  onBlurHandler = (event) => {
+    let { name, value } = event.target;
+
+    if (name === 'cidade') value = value.match(/^\d/) ? '' : value;
+
+    this.setState({ [name]: value });
+  }
+
+  validateForm = (event) => {
+    event.preventDefault();
+    this.setState({ errors: verifyForm(this.state) });
   }
 
   render() {
    return (
      <div>
        <form action="">
-          <PersonalForm value={this.state} handleChange={this.handleChange} />
-          <button type="submit">Enviar</button>
+          <PersonalForm value={this.state} handleChange={this.handleChange} onBlurHandler={this.onBlurHandler} />
+          <button type="submit" onClick={(e) => this.validateForm(e)}>Enviar</button>
        </form>
      </div>
    )

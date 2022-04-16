@@ -4,15 +4,15 @@ import './PersonalForm.css'
 
 class PersonalForm extends Component {
   render() {
-    const { value, handleChange} = this.props;
+    const { value, handleChange, onBlurHandler} = this.props;
 
     return (
       <div className="PersonalForm">
         <h2>Informações Pessoais</h2>
         <fieldset>
-        <ErrorForm error={value.error}/>
+          <ErrorForm errors={value.errors}/>
           <label>
-            Name:
+            Nome:
             <input
               type="text" 
               name="name"
@@ -53,6 +53,7 @@ class PersonalForm extends Component {
               type="text" 
               name="cidade"
               value={value.cidade}
+              onBlur={onBlurHandler}
               onChange={handleChange}
             />
           </label>
