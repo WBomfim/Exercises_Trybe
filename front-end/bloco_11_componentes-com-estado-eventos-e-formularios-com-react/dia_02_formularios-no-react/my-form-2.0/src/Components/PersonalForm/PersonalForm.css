@@ -1,0 +1,57 @@
+.PersonalForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.PersonalForm fieldset {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  width: 80%;
+  
+}
+
+.PersonalForm .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  gap: 15px
+}
+
+.inputs {
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 55%;
+  height: 60px;
+  gap:7px
+}
+
+.radios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+  gap: 7px
+}
+
+.ErrorForm {
+  width: 100%;
+}
