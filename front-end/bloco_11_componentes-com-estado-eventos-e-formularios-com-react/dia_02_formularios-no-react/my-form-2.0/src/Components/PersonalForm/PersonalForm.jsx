@@ -10,10 +10,14 @@ class PersonalForm extends Component {
       <div className="PersonalForm">
         <h2>Informações Pessoais</h2>
         <fieldset>
-          <ErrorForm errors={value.errors}/>
+          <div>
+            <ErrorForm className="ErrorForm" errors={value.errors}/>
+          </div>
+          <div className="form">
           <label>
             Nome:
             <input
+              className="inputs"
               type="text" 
               name="name"
               value={value.name}
@@ -23,6 +27,7 @@ class PersonalForm extends Component {
           <label>
             Email:
             <input
+              className="inputs"
               type="text" 
               name="email"
               value={value.email}
@@ -32,6 +37,7 @@ class PersonalForm extends Component {
           <label>
             CPF:
             <input
+              className="inputs"
               type="text" 
               name="cpf"
               value={value.cpf}
@@ -41,6 +47,7 @@ class PersonalForm extends Component {
           <label>
             Endereço:
             <input
+              className="inputs"
               type="text" 
               name="endereco"
               value={value.endereco}
@@ -50,6 +57,7 @@ class PersonalForm extends Component {
           <label>
             Cidade:
             <input
+              className="inputs"
               type="text" 
               name="cidade"
               value={value.cidade}
@@ -60,9 +68,10 @@ class PersonalForm extends Component {
           <label>
             Estado:
             <select
-             name="estado"
-             value={value.estado}
-             onChange={handleChange}            
+              className="inputs"
+              name="estado"
+              value={value.estado}
+              onChange={handleChange}            
             >
               <option value="">Selecione</option>
               <option value="AC">Acre</option>
@@ -94,7 +103,7 @@ class PersonalForm extends Component {
               <option value="TO">Tocantins</option>
             </select>
           </label>
-          <label>
+          <label className="radios">
             <input
              type="radio" 
              name="tipo"
@@ -103,7 +112,7 @@ class PersonalForm extends Component {
             />
              Casa
           </label>
-          <label>
+          <label className="radios">
             <input
              type="radio" 
              name="tipo"
@@ -112,6 +121,7 @@ class PersonalForm extends Component {
             />
             Apartamento
           </label>
+          </div>
         </fieldset>
       </div>
     )

@@ -6,17 +6,17 @@ class ErrorForm extends Component {
     const { errors } = this.props;
     if (errors !== '') {
       return (
-        <div>
-          {errors.map((error) => <p key={error} className="error">{error}</p>)}
-        </div>
+        errors.map((error) => <p key={error} className="error">{error}</p>)
       )
     } 
-    return null
+    return null;
   }
 
   render() {
     return (
-      <>{this.showErrors()}</>
+      <div>
+        {this.showErrors()}
+      </div>
     )
   }
 }
