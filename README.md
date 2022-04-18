@@ -102,14 +102,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
 - [x] 1: _Components com estado e eventos_
-- [ ] 2: _Formulários no React_
-- [ ] 3: _**Projeto** - Tryunfo_
+- [x] 2: _Formulários no React_
+- [x] 3: _**Projeto** - Tryunfo_
 
 #### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 1: _Ciclo de vida de componentes_
-- [ ] 2: _React Router_
-- [ ] 3: _**Projeto** - TrybeTunes_
+- [x] 1: _Ciclo de vida de componentes_
+- [x] 2: _React Router_
+- [x] 3: _**Projeto** - TrybeTunes_
 
 #### Bloco 13: Metodologias Ágeis
 
