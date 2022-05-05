@@ -118,8 +118,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 1: _RTL - Primeiros passos_
-- [ ] 2: _RTL - Mocks e Inputs_
+- [x] 1: _RTL - Primeiros passos_
+- [x] 2: _RTL - Mocks e Inputs_
 - [ ] 3: _RTL - Testando React Router_
 - [ ] 4: _**Projeto** - Testes em React_
 
