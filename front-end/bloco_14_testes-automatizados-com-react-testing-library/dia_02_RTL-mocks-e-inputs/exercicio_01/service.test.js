@@ -1,7 +1,7 @@
 const service = require('./service');
 
 
-describe('Teste das funções do arquivo service', () => {
+describe('Testes da função radomNumber', () => {
   it('Verifica se a função randomNumber foi chamada, qual seu retorno e quantas vezes foi chamada realizando um mock', () => {
     service.randomNumber = jest.fn().mockReturnValue(10);
   
@@ -33,5 +33,35 @@ describe('Teste das funções do arquivo service', () => {
     expect(service.randomNumber(5)).toBe(10);
     expect(service.randomNumber).toHaveBeenCalled();
     expect(service.randomNumber).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('Testes da função changeUpperCase, eturnFirstLetter e concatStrings', () => {
+  it('Verifica se as funções changeUpperCase, eturnFirstLetter e concatStrings foram chamadas com os mocks e após os testes doram resetadas', () => {
+    jest.spyOn(service, 'changeUpperCase').mockImplementation((string) => string.toLowerCase());
+    expect(service.changeUpperCase('TESTE')).toBe('teste');
+    expect(service.changeUpperCase).toHaveBeenCalled();
+    expect(service.changeUpperCase).toHaveBeenCalledTimes(1);
+    
+    jest.spyOn(service, 'returnFirstLetter').mockImplementation((string) => string[string.length - 1]);
+    expect(service.returnFirstLetter('Teste')).toBe('e');
+    expect(service.returnFirstLetter).toHaveBeenCalled();
+    expect(service.returnFirstLetter).toHaveBeenCalledTimes(1);
+    
+    jest.spyOn(service, 'concatStrings').mockImplementation((string1, string2, string3) => string1 + string2 + string3);
+    expect(service.concatStrings('Teste', 'Teste', 'Teste')).toBe('TesteTesteTeste');
+    expect(service.concatStrings).toHaveBeenCalled();
+    expect(service.concatStrings).toHaveBeenCalledTimes(1);
+  });
+
+  it('Verifica se as funções changeUpperCase, eturnFirstLetter e concatStrings tiveram suas implementações restauradas', () => {
+    service.changeUpperCase.mockRestore();
+    expect(service.changeUpperCase('teste')).toBe('TESTE');
+
+    service.returnFirstLetter.mockRestore();
+    expect(service.returnFirstLetter('Teste')).toBe('T');
+    
+    service.concatStrings.mockRestore();
+    expect(service.concatStrings('Teste', 'Testando')).toBe('TesteTestando');
   });
 });
