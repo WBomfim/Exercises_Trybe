@@ -60,8 +60,30 @@ describe('Testes da função changeUpperCase, eturnFirstLetter e concatStrings',
 
     service.returnFirstLetter.mockRestore();
     expect(service.returnFirstLetter('Teste')).toBe('T');
-    
+
     service.concatStrings.mockRestore();
     expect(service.concatStrings('Teste', 'Testando')).toBe('TesteTestando');
+  });
+});
+
+describe('Testes da função fetchDogs', () => {
+  it('Verifica o retorno da função fetchDogs realizando um mock para a promisse resolvida', async () => {
+    service.fetchDogs = jest.fn().mockResolvedValue('request sucess');
+
+    service.fetchDogs()
+    expect(service.fetchDogs).toHaveBeenCalled();
+    expect(service.fetchDogs).toHaveBeenCalledTimes(1);
+    await expect(service.fetchDogs()).resolves.toBe('request sucess');
+    expect(service.fetchDogs).toHaveBeenCalledTimes(2);
+  });
+
+  it('Verifica o retorno da função fetchDogs realizando um mock para a promisse rejeitada', async () => {
+    service.fetchDogs = jest.fn().mockResolvedValue('request failed');
+
+    service.fetchDogs()
+    expect(service.fetchDogs).toHaveBeenCalled();
+    expect(service.fetchDogs).toHaveBeenCalledTimes(1);
+    await expect(service.fetchDogs()).resolves.toBe('request failed');
+    expect(service.fetchDogs).toHaveBeenCalledTimes(2);
   });
 });

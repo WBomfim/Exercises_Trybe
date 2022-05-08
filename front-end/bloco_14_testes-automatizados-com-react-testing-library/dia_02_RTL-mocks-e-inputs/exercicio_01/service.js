@@ -6,9 +6,16 @@ const returnFirstLetter = (string) => string[0]; // string.charAt(0)
 
 const concatStrings = (string1, string2) => string1 + string2; // string.concat(string2)
 
+const fetchDogs = async () => {
+  const response = await fetch('https://dog.ceo/api/breeds/image/random');
+  const data = await response.json();
+  return data.message;
+};
+
 module.exports = {
   randomNumber,
   changeUpperCase,
   returnFirstLetter,
-  concatStrings
+  concatStrings,
+  fetchDogs,
 };
