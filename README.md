@@ -125,8 +125,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 2: _Usando o Redux no React_
+- [x] 1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 2: _Usando o Redux no React_
 - [ ] 3: _Usando o Redux no React - Prática_
 - [ ] 4: _Usando o Redux no React - Actions Assíncronas_
 - [ ] 5: _Testes em React-Redux_
