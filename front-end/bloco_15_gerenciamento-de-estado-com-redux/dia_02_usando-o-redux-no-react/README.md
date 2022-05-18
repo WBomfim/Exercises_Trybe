@@ -14,4 +14,5 @@ Execício do dia:
 
 - https://github.com/WBomfim/exercises-redux-step-by-step
 - https://github.com/WBomfim/exercise-forms-redux
+- https://github.com/WBomfim/exercise-react-with-redux-intro
 
