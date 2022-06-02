@@ -134,7 +134,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 1: _**Projeto** - Jogo de Trivia_
+- [x] 1: _**Projeto** - Jogo de Trivia_
 
 #### Bloco 17: React & Context API
 
