@@ -89,7 +89,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
   
 
-## <u>Desenvolvimento Front-end</u> :hourglass_flowing_sand:
+## <u>Desenvolvimento Front-end</u>
 
 #### Bloco 10: Introdução à React
 
@@ -138,14 +138,14 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 17: React & Context API
 
-- [ ] 1: _Context API do React_
-- [ ] 2: _React Hooks - useState e useContext_
-- [ ] 3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 4: _**Projeto** - StarWars Datatable com Context API e Hooks_
+- [x] 1: _Context API do React_
+- [x] 2: _React Hooks - useState e useContext_
+- [x] 3: _React Hooks - useEffect e Hooks customizados_
+- [x] 4: _**Projeto** - StarWars Datatable com Context API e Hooks_
 
 #### Bloco 18: Projeto App de Receitas
 
-- [ ] 1: _**Projeto** - App de Receitas_
+- [x] 1: _**Projeto** - App de Receitas_
 
 
 
