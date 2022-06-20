@@ -1,10 +1,8 @@
-# <u>Desenvolvimento Front-end</u> :hourglass_flowing_sand:
+# <u>Desenvolvimento Front-end</u> 
 
+Nesse módulo aprendi a utilizar a biblioteca *React* para criar aplicações de *front-end* que se conectam com APIs.
 
-
-Nesse módulo irei aprender a utilizar a biblioteca *React* para criar aplicações de *front-end* que se conectam com APIs.
-
-### **<u>Competência que irei adquirir:</u>**
+### **<u>Competências adquiridas:</u>**
 
 - Desenvolver aplicações completas de *front-end* utilizando a biblioteca *React* .
 
@@ -23,9 +21,9 @@ Nesse módulo irei aprender a utilizar a biblioteca *React* para criar aplicaç�
 
 - Gerenciamento de estado com Redux
 
-- React & Context API
+- React hooks & Context API
 
   
 
-Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolverei ao longo do módulo de "Desenvolvimento Front-end" do curso da [Trybe](https://www.betrybe.com/).
+Tendo isso em mente, esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo do módulo de "Desenvolvimento Front-end" do curso da [Trybe](https://www.betrybe.com/).
 
