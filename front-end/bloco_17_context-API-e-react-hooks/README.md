@@ -4,5 +4,11 @@
 
 Esse bloco pertence ao módulo de `front-end` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... :hourglass_flowing_sand:
+Nesse bloco aprendi:
+
+- Utilizar a *Context API* do **React** para gerenciar estado.
+- Utilizar o *React Hook useState*;
+- Utilizar o *React Hook useContext*;
+- Utilizar o *React Hook useEffect*;
+- Criar *React Hooks* customizados.
 
