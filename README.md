@@ -153,9 +153,9 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### BBloco 19: Docker: Utilizando Containers
 
-- [ ] 1: _Introdução - Back-end_
-- [ ] 1: _Utilizando Containers - Docker_
-- [ ] 2: _Manipulação e Criação de Imagens no Docker_
+- [x] 1: _Introdução - Back-end_
+- [x] 1: _Utilizando Containers - Docker_
+- [x] 2: _Manipulação e Criação de Imagens no Docker_
 - [ ] 3: _Orquestrando Containers com Docker Compose_
 - [ ] 4: _**Projeto** - Docker Todo-list_
 
