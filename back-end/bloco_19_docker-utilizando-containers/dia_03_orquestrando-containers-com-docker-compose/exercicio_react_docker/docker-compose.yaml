@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  react-frontend:
+    build: .  # referencia a pasta que está o arquivo Dockerfile, ou seja, a mesma pasta que o arquivo .dockerfile
+    ports:
+      - 8080:3000
