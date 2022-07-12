@@ -156,8 +156,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 1: _Introdução - Back-end_
 - [x] 1: _Utilizando Containers - Docker_
 - [x] 2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 3: _Orquestrando Containers com Docker Compose_
-- [ ] 4: _**Projeto** - Docker Todo-list_
+- [x] 3: _Orquestrando Containers com Docker Compose_
+- [x] 4: _**Projeto** - Docker Todo-list_
 
 #### Bloco 20: Introdução à SQL
 
