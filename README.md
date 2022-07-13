@@ -161,8 +161,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 20: Introdução à SQL
 
-- [ ] 1: _Introdução - Bancos de dados relacionais_
-- [ ] 1: _Banco de dados SQL_
+- [x] 1: _Introdução - Bancos de dados relacionais_
+- [x] 1: _Banco de dados SQL_
 - [ ] 2: _Encontrando dados em um banco de dados_
 - [ ] 3: _Filtrando dados de forma específica_
 - [ ] 4: _Manipulando tabelas
