@@ -171,7 +171,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 #### Bloco 21: Funções SQL, JOINs e Normalização
 
 - [x] 1: _Funções mais usadas no SQL_
-- [ ] 2: _Descomplicando JOINs_
+- [x] 2: _Descomplicando JOINs_
 - [ ] 3: _Transformando ideias em um modelo de banco de dados_
 - [ ] 4: _**Projeto** - One For All_
 
