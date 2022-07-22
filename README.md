@@ -172,8 +172,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [x] 1: _Funções mais usadas no SQL_
 - [x] 2: _Descomplicando JOINs_
-- [ ] 3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 4: _**Projeto** - One For All_
+- [x] 3: _Transformando ideias em um modelo de banco de dados_
+- [x] 4: _**Projeto** - One For All_
 
 #### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
