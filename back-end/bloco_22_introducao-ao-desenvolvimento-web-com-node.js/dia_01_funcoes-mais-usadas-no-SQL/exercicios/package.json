@@ -6,6 +6,7 @@
   "scripts": {
     "imc": "node imc.js",
     "velocidade": "node averageSpeed.js",
+    "sorteio": "node divinationGame.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Willian Bomfim",
