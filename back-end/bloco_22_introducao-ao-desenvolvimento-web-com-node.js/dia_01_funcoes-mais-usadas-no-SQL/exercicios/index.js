@@ -2,6 +2,7 @@ const readline = require('readline-sync');
 
 const scripts = {
   'Calcular IMC': './calculateIMC.js',
+  'Calcular Fatorial': './calculateFatorial.js',
   'Calcular velocidade média': './averageSpeed.js',
   'Jogo de adivinhação': './divinationGame.js'
 };

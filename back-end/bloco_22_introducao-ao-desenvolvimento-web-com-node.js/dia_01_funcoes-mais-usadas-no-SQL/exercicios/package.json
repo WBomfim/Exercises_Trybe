@@ -8,6 +8,7 @@
     "imc": "node calculateIMC.js",
     "velocidade": "node averageSpeed.js",
     "sorteio": "node divinationGame.js",
+    "fatorial": "node calculateFatorial.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Willian Bomfim",
