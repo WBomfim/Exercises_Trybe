@@ -1,8 +1,8 @@
 const readline = require('readline-sync');
 
 const divinationGame = () => {
-  const numberInput = readline.questionInt('Qual o número que você deseja adivinhar? ');
-  const drawnNumber = Number(Math.floor(Math.random() * 10).toFixed(0));
+  const numberInput = readline.questionInt('Qual o número que você deseja adivinhar entre 0 e 10? ');
+  const drawnNumber = Number(Math.floor(Math.random() * 11).toFixed(0));
   
   if (numberInput === drawnNumber) {
     return 'Parabéns, número correto!';
