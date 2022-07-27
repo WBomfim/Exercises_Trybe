@@ -46,11 +46,11 @@ const selectCategorie = (imc) => {
   return selectedCategorie;
 }
 
-const showInformation = () => {
+const showInformationIMC = () => {
   const imc = calcIMC();
   const categorie = selectCategorie(imc);
 
   console.log(`Seu IMC é ${imc} e você está na Categoria: ${categorie}`);
 }
 
-showInformation();
+showInformationIMC();
