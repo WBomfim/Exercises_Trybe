@@ -1,0 +1,16 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "Exercícios 22.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Willian Bomfim",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
