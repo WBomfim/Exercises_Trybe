@@ -69,6 +69,28 @@ async function insertInformation() {
   await fs.writeFile('./simpsonFamily.json', newFamilySimpsons, 'utf-8');
 }
 
+async function changeCharacter() {
+  const simpsonsFamily = await fs.readFile('./simpsonFamily.json', 'utf-8');
+  const familyData = JSON.parse(simpsonsFamily);
+
+  if(!familyData) {
+    throw new Error(`Arquivo não encontrado`);
+  }
+
+  const changeCharacter = familyData.map((character) => {
+    if(Number(character.id) === 5) {
+      return {
+        id: `${character.id}`,
+        name: 'Maggie Simpson'
+      }
+    }
+    return character;
+  })
+
+  const newFamilySimpsons = JSON.stringify(changeCharacter);
+  await fs.writeFile('./simpsonFamily.json', newFamilySimpsons, 'utf-8');
+}
+
 async function main() {
   try {
     const dataSimpsons = await readFileAndShowInformation();
@@ -82,6 +104,7 @@ async function main() {
     await changeInformation();
     await createFamilySimpson();
     await insertInformation();
+    await changeCharacter();
   } catch(error) {
     console.log(error);
   }
