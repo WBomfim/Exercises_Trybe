@@ -52,6 +52,23 @@ async function createFamilySimpson() {
   await fs.writeFile('./simpsonFamily.json', newFamilySimpsons, 'utf-8');
 }
 
+async function insertInformation() {
+  const simpsonsFamily = await fs.readFile('./simpsonFamily.json', 'utf-8');
+  const familyData = JSON.parse(simpsonsFamily);
+
+  if(!familyData) {
+    throw new Error(`Arquivo não encontrado`);
+  }
+
+  familyData.push({
+    id: `${familyData.length + 1}`,
+    name: 'Nelson Muntz'
+  })
+
+  const newFamilySimpsons = JSON.stringify(familyData);
+  await fs.writeFile('./simpsonFamily.json', newFamilySimpsons, 'utf-8');
+}
+
 async function main() {
   try {
     const dataSimpsons = await readFileAndShowInformation();
@@ -64,6 +81,7 @@ async function main() {
 
     await changeInformation();
     await createFamilySimpson();
+    await insertInformation();
   } catch(error) {
     console.log(error);
   }
