@@ -25,6 +25,33 @@ async function selectInformation(id) {
   return`${getSimpson.id} - ${getSimpson.name}`;
 }
 
+async function changeInformation() {
+  const simpsons = await fs.readFile(arquivo, 'utf-8');
+  const simpsonsData = JSON.parse(simpsons);
+
+  if(!simpsonsData) {
+    throw new Error(`Arquivo não encontrado`);
+  }
+
+  const filterSimpsons = simpsonsData.filter(({ id }) => Number(id) !== 6 && Number(id) !== 10);
+  const newSimpsons = JSON.stringify(filterSimpsons);
+  await fs.writeFile(arquivo, newSimpsons, 'utf-8');
+}
+
+async function createFamilySimpson() {
+  const simpsons = await fs.readFile(arquivo, 'utf-8');
+  const simpsonsData = JSON.parse(simpsons);
+
+  if(!simpsonsData) {
+    throw new Error(`Arquivo de referência não encontrado`);
+  }
+
+  const filterFamilySimpsons = simpsonsData.filter(({ id }) => Number(id) <= 4);
+  const newFamilySimpsons = JSON.stringify(filterFamilySimpsons);
+
+  await fs.writeFile('./simpsonFamily.json', newFamilySimpsons, 'utf-8');
+}
+
 async function main() {
   try {
     const dataSimpsons = await readFileAndShowInformation();
@@ -34,6 +61,9 @@ async function main() {
 
     const selectedSimpson = await selectInformation(1);
     console.log(selectedSimpson);
+
+    await changeInformation();
+    await createFamilySimpson();
   } catch(error) {
     console.log(error);
   }

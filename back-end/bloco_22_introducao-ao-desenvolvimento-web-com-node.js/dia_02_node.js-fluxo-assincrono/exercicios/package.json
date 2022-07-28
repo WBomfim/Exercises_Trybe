@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "promisse": "node promisse.js",
+    "simpsons": "node simpsons.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Willian Bomfim",
