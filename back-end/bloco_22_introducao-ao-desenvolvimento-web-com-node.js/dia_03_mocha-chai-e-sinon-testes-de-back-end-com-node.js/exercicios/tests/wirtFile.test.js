@@ -1,10 +1,20 @@
 const { expect } = require('chai');
+const sinon = require('sinon');
+const fs = require('fs');
 const { wirtFile } = require('../src/wirtFile');
 
 const NOME_ARQUIVO = 'teste.txt';
 const CONTEUDO_ARQUIVO = 'Conteudo do arquivo de teste';
 
 describe('Testa se a função wirtFile executa as operações corretamente', () => {
+  before(() => {
+    sinon.stub(fs, 'writeFileSync');
+  });
+
+  after(() => {
+    fs.writeFileSync.restore();
+  });
+  
   describe('Passando o nome do arquivo e conteúdo a ser salvo', () => {
     it('Verifica se o conteúdo salvo é uma string', () => {
       const data = wirtFile(NOME_ARQUIVO, CONTEUDO_ARQUIVO);
