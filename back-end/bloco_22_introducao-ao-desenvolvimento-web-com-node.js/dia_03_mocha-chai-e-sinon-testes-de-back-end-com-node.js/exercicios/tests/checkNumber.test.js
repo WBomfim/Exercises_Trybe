@@ -46,7 +46,7 @@ describe('Testa a função que verifica se o número é neutro, positivo ou nega
 
     it('Verifica se a função lança o erro "o valor deve ser um número"', () => {
       const output = checkNumber('teste');
-      expect(output).to.throw('o valor deve ser um número');
+      expect(output).to.equal('o valor deve ser um número');
     })
   })
 });
