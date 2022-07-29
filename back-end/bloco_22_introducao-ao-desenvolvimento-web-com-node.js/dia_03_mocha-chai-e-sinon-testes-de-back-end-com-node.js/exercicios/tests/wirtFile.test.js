@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-//const wirtFile = require('../src/writingFile');
+const { wirtFile } = require('../src/wirtFile');
 
 const NOME_ARQUIVO = 'teste.txt';
 const CONTEUDO_ARQUIVO = 'Conteudo do arquivo de teste';
