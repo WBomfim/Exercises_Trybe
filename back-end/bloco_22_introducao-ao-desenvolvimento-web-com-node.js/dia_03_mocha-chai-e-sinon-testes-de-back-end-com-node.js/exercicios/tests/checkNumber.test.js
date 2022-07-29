@@ -1,5 +1,5 @@
 const { expect } = require("chai")
-//const checkNumber = require("../src/checkNumber")
+const { checkNumber } = require("../src/checkNumber")
 
 describe('Testa a função que verifica se o número é neutro, positivo ou negativo', () => {
   describe('Quando o número for 0', () => {
