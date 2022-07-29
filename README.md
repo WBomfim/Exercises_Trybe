@@ -179,8 +179,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [x] 1: _Intro - Node.js_
 - [x] 1: _Node.js - Um motor JavaScript_
-- [ ] 2: _Node.js - Fluxo assíncrono_
-- [ ] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
+- [x] 2: _Node.js - Fluxo assíncrono_
+- [x] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
 - [ ] 4: _Express - HTTP com Node.js_
 - [ ] 5: _Express - Middlewares_
 - [ ] 6: _**Projeto** - Talker Manager_
