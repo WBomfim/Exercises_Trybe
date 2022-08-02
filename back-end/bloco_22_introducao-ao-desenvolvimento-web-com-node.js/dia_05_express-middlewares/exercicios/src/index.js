@@ -9,4 +9,8 @@ app.post('/sales', validateProductName, validateInfos, (_req, res) => {
   return res.status(201).json({ message: 'Venda cadastrada com sucesso' })
 });
 
+app.post('/signup', (_req, res) => {
+  return res.status(201).json({ message: 'ok' })
+});
+
 app.listen(3005, () => console.log('Ouvindo na porta 3005'));
