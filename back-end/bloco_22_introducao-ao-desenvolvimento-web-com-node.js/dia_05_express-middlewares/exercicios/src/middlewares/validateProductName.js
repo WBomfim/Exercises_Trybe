@@ -1,3 +1,9 @@
+const express = require('express');
+
+const app = express();
+app.use(express.json());
+
+
 function validateProductName(req, res, next) {
   const { productName } = req.body;
 
