@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  api:
+    image: node:16.9.0
+    container_name: exercise-22.6
+    restart: always
+    ports:
+      - 3005:3005
+    volumes: 
+      - ./:/app
+    working_dir: /app
+    command: bash
+    tty: true
