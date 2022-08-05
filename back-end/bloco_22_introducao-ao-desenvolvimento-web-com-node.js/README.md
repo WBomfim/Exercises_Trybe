@@ -10,6 +10,7 @@ Nesse bloco aprendi:
 - Realizar operações assíncronas com Callbacks e Promises;
 - Utilizar os módulos do Node para realizar tarefas;
 - Escrever scripts que criam e consomem Promises;
+- A escrever testes com Node.js utilizando Mocha, Chai e Sinon;
 - O que é o HTTP;
 - O que é uma API;
 - A estrutura de uma aplicação Express e como organizar o código;
