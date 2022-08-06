@@ -1,6 +1,11 @@
 const userService = require('../services/users');
 const validations = require('../services/validations');
 
+const getAllUsers = async (req, res) => {
+  const users = await userService.getAllUsers();
+  return res.status(200).json(users);
+};
+
 const addUser = async (req, res) => {
   const { firstName, lastName, email, password } = req.body;
   const nameStatus = validations.firstName(firstName);
@@ -17,5 +22,6 @@ const addUser = async (req, res) => {
 }
 
 module.exports = {
+  getAllUsers,
   addUser,
 };

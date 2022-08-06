@@ -1,7 +1,12 @@
-const usersModel = require('../models/users');
+const userModel = require('../models/users');
+
+const getAllUsers = async () => {
+  const users = await userModel.getAllUsers();
+  return users;
+};
 
 const addUser = async (user) => {
-  const userId = await usersModel.addUser(user);
+  const userId = await userModel.addUser(user);
   const { firstName, lastName, email } = user;
   return {
     id: userId,
@@ -12,5 +17,6 @@ const addUser = async (user) => {
 };
 
 module.exports = {
+  getAllUsers,
   addUser,
 };
