@@ -5,6 +5,11 @@ const getAllUsers = async () => {
   return users;
 };
 
+const getUserById = async (id) => {
+  const user = await userModel.getUserById(id);
+  return user;
+};
+
 const addUser = async (user) => {
   const userId = await userModel.addUser(user);
   const { firstName, lastName, email } = user;
@@ -16,7 +21,14 @@ const addUser = async (user) => {
   }
 };
 
+const updateUser = async (id, user) => {
+  const updateStatus = await userModel.updateUser(id, user);
+  return updateStatus;
+};
+
 module.exports = {
   getAllUsers,
+  getUserById,
   addUser,
+  updateUser,
 };
