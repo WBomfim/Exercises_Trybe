@@ -1,12 +1,15 @@
 const cepModels = require('../models/cepModels');
 const cepValidate = require('../schemas/cepValidate');
 const informationsValidate = require('../schemas/informationsValidate');
+const cepIntegrations = require('../integrations/cepIntegrations');
 
 const findAddressByCep = async (searchedCep) => {
   const cepIsNotValid = cepValidate(searchedCep);
   if (cepIsNotValid) return cepIsNotValid;
   const address = await cepModels.findAddressByCep(searchedCep);
-  if (!address) {
+  if (address) return address;
+  const addressFromAPI = await cepIntegrations.lookupCep(searchedCep);
+  if (!addressFromAPI) {
     return {
       error: {
         code: 'notFound',
@@ -14,7 +17,7 @@ const findAddressByCep = async (searchedCep) => {
       },
     };
   }
-  return address;
+  return cepModels.createAddress(addressFromAPI);
 };
 
 const createAddress = async ({ cep, logradouro, bairro, localidade, uf }) => {
