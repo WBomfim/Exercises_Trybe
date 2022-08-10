@@ -8,7 +8,7 @@ const cepValidate = (cep) => {
       }
     }
   }
-  return true;
+  return false;
 };
 
 module.exports = cepValidate;
