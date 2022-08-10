@@ -1,4 +1,5 @@
 const express = require('express');
+const errorMiddleware = require('./middlewares/errorMiddleware');
 const pingRoutes = require('./routes/pingRoutes');
 require('dotenv').config();
 
@@ -8,5 +9,7 @@ app.use(express.json());
 const PORT = process.env.PORT;
 
 app.use('/ping', pingRoutes);
+
+app.use(errorMiddleware);
 
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
