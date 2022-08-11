@@ -3,6 +3,7 @@ const { expect } = require('chai');
 
 const MoviesService = require('../../services/movieService');
 const MoviesController = require('../../controllers/movieController');
+const { after } = require('mocha');
 
 describe('Ao chamar o controller de create', () => {
   describe('quando o payload informado não é válido', async () => {
@@ -75,5 +76,49 @@ describe('Ao chamar o controller de create', () => {
       expect(response.send.calledWith('Filme criado com sucesso!')).to.be.equal(true);
     });
 
+  });
+});
+
+describe('Ao chamar o controller de getById', () => {
+  describe('Quando o id informado não é encontrado', async () => {
+    const res = {};
+    const req = {};
+
+    before(() => {
+      req.params = { id: 1 };
+      res.status = sinon.stub().returns(res);
+      res.json = sinon.stub().returns();
+      const response = { code: 404, message: 'Movie not found' };
+      sinon.stub(MoviesService, 'getById').resolves(response);
+    });
+
+    after(() => MoviesService.getById.restore());
+
+    it('é chamado o status com o código 404 e a mensagem "Movie not found"', async () => {
+      await MoviesController.getById(req, res);
+      expect(res.status.calledWith(404)).to.be.equal(true);
+      expect(res.json.calledWith({ message: 'Movie not found' })).to.be.equal(true);
+    });
+  });
+
+  describe('Quando o id informado é encontrado', async () => {
+    const res = {};
+    const req = {};
+
+    before(() => {
+      req.params = { id: 1 };
+      res.status = sinon.stub().returns(res);
+      res.json = sinon.stub().returns();
+      const response = { code: 200, data: { id: 1, title: 'Example Movie', directedBy: 'Jane Dow', releaseYear: 1999 } };
+      sinon.stub(MoviesService, 'getById').resolves(response);
+    });
+
+    after(() => MoviesService.getById.restore());
+
+    it('é chamado o status com o código 200 e retornado os dados do filme encontrado"', async () => {
+      await MoviesController.getById(req, res);
+      expect(res.status.calledWith(200)).to.be.equal(true);
+      expect(res.json.calledWith({ id: 1, title: 'Example Movie', directedBy: 'Jane Dow', releaseYear: 1999 })).to.be.equal(true);
+    });
   });
 });
