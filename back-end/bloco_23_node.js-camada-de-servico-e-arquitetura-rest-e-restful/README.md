@@ -4,4 +4,11 @@
 
 Esse bloco pertence ao módulo de `back-end` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... :hourglass_flowing_sand:
+Nesse bloco aprendi:
+
+- O que é Arquitetura de Software e focamos na MSC
+- O que é Regra de Negócio e como elas impactam no desenvolvimento;
+- Como cada camada do MSC funciona e suas atribuições;
+- O que é arquitetura REST e RESTful, e como aplicar os conceitos durante o desenvolvimento;
+- Como criar testes unitários para cada camada da aplicação.
+
