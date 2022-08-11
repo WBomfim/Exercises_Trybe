@@ -43,6 +43,8 @@ describe('Busca um filmes pelo id', () => {
 
   describe('Quando o filme com o id informado não existe', () => {
     it('Retorna null', async () => {
+      const queryReturn = [];
+      sinon.stub(connection, 'execute').resolves(queryReturn);
       const result = await MoviesModel.getById(testId);
       expect(result).to.be.null;
     });
