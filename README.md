@@ -190,9 +190,9 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 1: _Introdução - Arquitetura de Software_
 - [x] 1: _Arquitetura de Software - Camada de Model_
 - [x] 2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 3: _Arquitetura Web - Rest e Restful_
-- [ ] 4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 5: _**Projeto** - Store Manager_
+- [x] 3: _Arquitetura Web - Rest e Restful_
+- [x] 4: _Arquitetura de Software - Testando as Camadas_
+- [x] 5: _**Projeto** - Store Manager_
 
 #### Bloco 24: Node.js: ORM e Autenticação
 
