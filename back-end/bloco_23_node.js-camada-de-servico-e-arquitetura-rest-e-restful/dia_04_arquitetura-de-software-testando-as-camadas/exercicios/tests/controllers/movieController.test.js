@@ -88,7 +88,7 @@ describe('Ao chamar o controller de getById', () => {
       req.params = { id: 1 };
       res.status = sinon.stub().returns(res);
       res.json = sinon.stub().returns();
-      const response = { code: 404, message: 'Movie not found' };
+      const response = { code: 404, message: { message: 'Movie not found' } };
       sinon.stub(MoviesService, 'getById').resolves(response);
     });
 
