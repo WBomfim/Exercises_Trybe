@@ -39,11 +39,13 @@ const getById = async (id) => {
 
 const update = async (id, name, brand) => {
   try {
-    const [result] = await connection.query(
+    const product = await getById(id);
+    if (!product) return false;
+    await connection.query(
       'UPDATE products SET name = ?, brand = ? WHERE id = ?',
        [name, brand, id],
     );
-    return result;
+    return true;
   } catch (err) {
     console.error(err);
     return process.exit(1);
@@ -53,8 +55,9 @@ const update = async (id, name, brand) => {
 const exclude = async (id) => {
   try {
     const product = await getById(id);
-    if (!product) return {};
+    if (!product) return false;
     await connection.query('DELETE FROM products WHERE id = ?', [id]);
+    return true
   } catch (err) {
     console.error(err);
     return process.exit(1);
