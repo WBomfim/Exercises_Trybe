@@ -3,38 +3,38 @@ const ProductModel = require('../models/productModel');
 
 const router = express.Router();
 
-router.get('/products', async (req, res) => {
+router.get('/', async (req, res) => {
   const products = await ProductModel.getAll();
 
-  res.json(products);
+  res.status(200).json(products);
 });
 
-router.get('/products/:id', async (req, res) => {
+router.get('/:id', async (req, res) => {
   const product = await ProductModel.getById(req.params.id);
 
-  res.json(product);
+  res.status(200).json(product);
 });
 
-router.post('/products', async (req, res) => {
+router.post('/', async (req, res) => {
   const { name, brand } = req.body;
 
   const newProduct = await ProductModel.add(name, brand);
 
-  res.json(newProduct);
+  res.status(201).json(newProduct);
 });
 
-router.delete('/products/:id', async (req, res) => {
+router.delete('/:id', async (req, res) => {
   const products = await ProductModel.exclude(req.params.id);
 
-  res.json(products);
+  res.status(204).json(products);
 });
 
-router.put('/products/:id', async (req, res) => {
+router.put('/:id', async (req, res) => {
   const { name, brand } = req.body;
 
   const products = await ProductModel.update(req.params.id, name, brand);
 
-  res.json(products);
+  res.status(200).json(products);
 });
 
 module.exports = router;
