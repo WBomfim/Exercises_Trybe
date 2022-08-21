@@ -22,6 +22,8 @@ app.post('/login', controllers.login);
 
 app.get('/users/me', middlewares.auth, controllers.me);
 
+app.get('/top-secret', middlewares.auth, controllers.topSecret);
+
 app.use(middlewares.error);
 
 app.listen(PORT, () => console.log(`App listening on port ${PORT}`));

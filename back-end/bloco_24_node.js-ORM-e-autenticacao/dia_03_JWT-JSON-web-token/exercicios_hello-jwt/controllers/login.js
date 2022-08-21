@@ -6,7 +6,7 @@ const { SECRET_KEY_JWT } = process.env;
 
 const login = (req, res) => {
   const { username, password } = req.body;
-  const isAdmin = false
+  let isAdmin = false;
   const isNotValidInfo = validateUsers(username, password);
   if (isNotValidInfo) {
     return res.status(isNotValidInfo.code).json({ message: isNotValidInfo.error });
