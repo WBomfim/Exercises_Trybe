@@ -199,7 +199,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 1: _Introdução - Node.js: ORM e Autenticação_
 - [ ] 1: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 2: _ORM - Associations_
-- [ ] 3: _JWR - JSON Web Token_
+- [x] 3: _JWR - JSON Web Token_
 - [ ] 4: _**Projeto** - API de Blogs_
 
 #### Bloco 25: Deployment
