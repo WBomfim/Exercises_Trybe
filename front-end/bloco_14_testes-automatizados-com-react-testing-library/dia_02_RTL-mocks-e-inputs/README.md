@@ -7,8 +7,3 @@ Hoje aprendi:
 - Testar inputs;
 
 
-
-Mais um exercício do dia:
-
-- https://github.com/WBomfim/exercise-digimon-finders-testing
-

@@ -8,6 +8,3 @@ Hoje aprendi:
 - Capturar eventos utilizando a sintaxe do ***React\***
 
 
-
-Exercício do dia: https://github.com/WBomfim/exercise-pokedex-state
-

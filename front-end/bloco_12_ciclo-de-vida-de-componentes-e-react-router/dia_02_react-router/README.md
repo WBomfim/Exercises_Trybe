@@ -10,8 +10,3 @@ Hoje aprendi:
 - Usar o componente `Redirect` pra alternar entre rotas.
 
 
-
-Exercícios do dia: 
-
-- https://github.com/WBomfim/comprehension-exercises-router
-- https://github.com/WBomfim/exercise-pokedex-router

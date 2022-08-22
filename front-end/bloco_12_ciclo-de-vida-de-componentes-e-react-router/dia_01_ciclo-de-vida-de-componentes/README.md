@@ -6,7 +6,3 @@ Hoje aprendi:
 - Utilizar o `shouldComponentUpdate` para avaliar se uma atualização do componente deve ou não acontecer naquele momento;
 - Utilizar o `componentDidUpdate` para executar uma ação após o componente ser atualizado;
 - Utilizar o `componentWillUnmount` para realizar uma ação antes de o componente ser desmontado.
-
-
-
-Execício do dia: https://github.com/WBomfim/exercise-dog-image
