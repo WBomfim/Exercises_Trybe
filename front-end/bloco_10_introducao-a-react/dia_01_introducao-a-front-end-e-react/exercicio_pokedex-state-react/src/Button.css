@@ -1,0 +1,16 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  min-width: 190px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: orange;
+  border: 3px solid grey;
+  border-radius: 8px;
+}
+
+.button:active {
+  border: 3px solid rgb(3, 238, 3);
+}
