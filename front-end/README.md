@@ -1,4 +1,4 @@
-# <u>Desenvolvimento Front-end</u> :hourglass_flowing_sand:
+# <u>Desenvolvimento Front-end</u> 
 
 Nesse módulo aprendi a utilizar a biblioteca *React* para criar aplicações de *front-end* que se conectam com APIs.
 
