@@ -12,4 +12,10 @@ app.get('/books', bookController.getAllBooks);
 
 app.get('/books/:id', bookController.getBookById);
 
+app.post('/books', bookController.createBook);
+
+app.put('/books/:id', bookController.updateBook);
+
+app.delete('/books/:id', bookController.deleteBook);
+
 app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));
