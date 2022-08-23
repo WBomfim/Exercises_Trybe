@@ -12,6 +12,12 @@ const getBookById = async (id) => {
   return { code: 200, data: bookById };
 };
 
+const getByAuthor = async (author) => {
+  const books = await book.findAll({ where: { author } });
+  if (!books || books.length === 0) return { code: 404, error: 'Books not found' };
+  return { code: 200, data: books };
+};
+
 const createBook = async ({ title, author, pageQuantity }) => {
   const newBook = await book.create({ title, author, pageQuantity });
   return { code: 201, data: newBook };
@@ -33,6 +39,7 @@ const deleteBook = async (id) => {
 module.exports = {
   getAllBooks,
   getBookById,
+  getByAuthor,
   createBook,
   updateBook,
   deleteBook,
