@@ -17,22 +17,22 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      page_quantity: {
+      pageQuantity: {
         type: Sequelize.INTEGER,
         allowNull: false
       },
-      created_at: {
+      createdAt: {
         type: Sequelize.DATE,
         allowNull: false
       },
-      updated_at: {
+      updatedAt: {
         type: Sequelize.DATE,
         allowNull: false
       }
     });
   },
 
-  async down (queryInterface, Sequelize) {
+  async down (queryInterface, _Sequelize) {
      await queryInterface.dropTable('books');
   }
 };
