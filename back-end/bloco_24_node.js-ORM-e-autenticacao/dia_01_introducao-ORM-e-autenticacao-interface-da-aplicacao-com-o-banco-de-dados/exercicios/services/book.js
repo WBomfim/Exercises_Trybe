@@ -1,7 +1,7 @@
 const { book } = require('../models');
 
 const getAllBooks = async () => {
-  const books = await book.findAll();
+  const books = await book.findAll({ order: [['title', 'ASC']] });
   if (!books || books.length === 0) return { code: 404, error: 'Not found' };
   return { code: 200, data: books };
 };
@@ -13,7 +13,10 @@ const getBookById = async (id) => {
 };
 
 const getByAuthor = async (author) => {
-  const books = await book.findAll({ where: { author } });
+  const books = await book.findAll({
+     where: { author },
+     order: [['title', 'ASC']],
+  });
   if (!books || books.length === 0) return { code: 404, error: 'Books not found' };
   return { code: 200, data: books };
 };
