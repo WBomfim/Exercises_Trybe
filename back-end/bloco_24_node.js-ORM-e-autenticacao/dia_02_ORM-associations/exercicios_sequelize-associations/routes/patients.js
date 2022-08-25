@@ -9,4 +9,6 @@ router.get('/surgery', patientsController.getPatientsAndSurgeries);
 
 router.get('/plan/:id', patientsController.getPatientsByPlanId);
 
+router.post('/', patientsController.addPatient);
+
 module.exports = router;

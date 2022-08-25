@@ -25,12 +25,19 @@ const getPatientsByPlanId = async (planId) => {
     include: [{ model: Patients, attributes: { exclude: ['plan_id']} }],
   });
 
-  if (!data) return { code: 404, error: 'No patients found' };
+  if (!data) return { code: 404, error: 'Plan not found' };
   return { code: 200, data };
+};
+
+const addPatient = async (fullname, plan_id) => {
+  const newPatient = await Patients.create({ fullname, plan_id });
+  if (!newPatient) return { code: 404, error: 'Patient not add' };
+  return { code: 200, data: newPatient };
 };
 
 module.exports = {
   getPatientsAndPlans,
   getPatientsAndSurgeries,
   getPatientsByPlanId,
+  addPatient,
 };

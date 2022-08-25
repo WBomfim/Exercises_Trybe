@@ -2,7 +2,8 @@ const patients = (sequelize, DataTypes) => {
   const patients = sequelize.define('Patients', {
     patient_id: {
       type: DataTypes.INTEGER,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true,
     },
     fullname: DataTypes.STRING,
     plan_id: {
