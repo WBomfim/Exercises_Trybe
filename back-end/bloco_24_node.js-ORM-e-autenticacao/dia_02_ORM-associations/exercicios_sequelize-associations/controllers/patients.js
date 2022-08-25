@@ -12,6 +12,12 @@ const getPatientsAndSurgeries = async (_req, res) => {
   return res.status(code).json(data);
 };
 
+const getPatientsAndSurgeriesNotDoctor = async (_req, res) => {
+  const { code, data, error} = await patientsService.getPatientsAndSurgeriesNotDoctor();
+  if (error) return res.status(code).json({ message: error });
+  return res.status(code).json(data);
+};
+
 const getPatientsByPlanId = async (req, res) => {
   const { id } = req.params;
   const { code, data, error} = await patientsService.getPatientsByPlanId(id);
@@ -29,6 +35,7 @@ const addPatient = async (req, res) => {
 module.exports = {
   getPatientsAndPlans,
   getPatientsAndSurgeries,
+  getPatientsAndSurgeriesNotDoctor,
   getPatientsByPlanId,
   addPatient,
 };

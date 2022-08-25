@@ -19,6 +19,19 @@ const getPatientsAndSurgeries = async () => {
   return { code: 200, data };
 };
 
+const getPatientsAndSurgeriesNotDoctor = async () => {
+  const data = await Patients.findAll({
+    include: [{ 
+      model: Surgeries, 
+      attributes: { exclude: ['doctor'] },
+      through: { attributes: [] } 
+    }],
+  });
+
+  if (!data) return { code: 404, error: 'No patients found' };
+  return { code: 200, data };
+};
+
 const getPatientsByPlanId = async (planId) => {
   const data = await Plans.findAll({
     where: { plan_id: planId },
@@ -38,6 +51,7 @@ const addPatient = async (fullname, plan_id) => {
 module.exports = {
   getPatientsAndPlans,
   getPatientsAndSurgeries,
+  getPatientsAndSurgeriesNotDoctor,
   getPatientsByPlanId,
   addPatient,
 };
