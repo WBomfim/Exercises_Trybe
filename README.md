@@ -200,8 +200,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 1: _ORM - Interface da aplicação com o banco de dados_
 - [x] 2: _ORM - Associations_
 - [x] 3: _JWR - JSON Web Token_
-- [ ] 4: Testando APIs com Testes de Integração
-- [ ] 5: _**Projeto** - API de Blogs_
+- [x] 4: Testando APIs com Testes de Integração
+- [x] 5: _**Projeto** - API de Blogs_
 
 #### Bloco 25: Deployment
 
