@@ -8,11 +8,15 @@ module.exports = async (req, res, next) => {
   try {
     const { authorization } = req.headers;
 
+    if (!authorization) {
+      return res.status(400).json({ message: 'Token não encontrado ou informado' });
+    }
+
     const { username } = jwt.verify(authorization, JWT_KEY);
 
     const user = await User.findOne({ where: { username } });
 
-    if (!authorization || !username || !user) throw Error;
+    if (!username || !user) throw Error;
 
     next();
   } catch (err) {
