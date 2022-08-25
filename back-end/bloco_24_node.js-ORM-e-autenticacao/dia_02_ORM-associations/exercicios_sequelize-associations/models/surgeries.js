@@ -6,7 +6,7 @@ const Surgeries = (sequelize, DataTypes) => {
       autoIncrement: true,
     },
     specialty: DataTypes.STRING,
-    doctor: DataTypes.DOUBLE,
+    doctor: DataTypes.STRING,
   }, { timestamps: false });
 
   return Surgeries;
