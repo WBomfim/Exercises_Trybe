@@ -5,4 +5,8 @@ const router = express.Router();
 
 router.get('/plan', patientsController.getPatientsAndPlans);
 
+router.get('/surgery', patientsController.getPatientsAndSurgeries);
+
+router.get('/plan/:id', patientsController.getPatientsByPlanId);
+
 module.exports = router;

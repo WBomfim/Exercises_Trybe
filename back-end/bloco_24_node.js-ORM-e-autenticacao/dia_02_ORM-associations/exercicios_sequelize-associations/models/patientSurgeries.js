@@ -2,7 +2,10 @@ const PatientSurgeries = (sequelize, DataTypes) => {
   const PatientSurgeries = sequelize.define(
     'PatientSurgeries',
     {},
-    { timestamps: false }
+    {
+      timestamps: false,
+      tableName: 'Patient_surgeries',
+    }
   );
 
   PatientSurgeries.associate = (models) => {

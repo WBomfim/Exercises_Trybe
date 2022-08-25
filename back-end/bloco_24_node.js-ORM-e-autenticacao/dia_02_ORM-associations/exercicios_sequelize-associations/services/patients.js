@@ -1,4 +1,4 @@
-const { Patients, Plans } = require('../models');
+const { Patients, Plans, Surgeries } = require('../models');
 
 const getPatientsAndPlans = async () => {
   const data = await Patients.findAll({
@@ -10,6 +10,27 @@ const getPatientsAndPlans = async () => {
   return { code: 200, data };
 };
 
+const getPatientsAndSurgeries = async () => {
+  const data = await Patients.findAll({
+    include: [{ model: Surgeries, through: { attributes: [] } }],
+  });
+
+  if (!data) return { code: 404, error: 'No patients found' };
+  return { code: 200, data };
+};
+
+const getPatientsByPlanId = async (planId) => {
+  const data = await Plans.findAll({
+    where: { plan_id: planId },
+    include: [{ model: Patients, attributes: { exclude: ['plan_id']} }],
+  });
+
+  if (!data) return { code: 404, error: 'No patients found' };
+  return { code: 200, data };
+};
+
 module.exports = {
-  getPatientsAndPlans
+  getPatientsAndPlans,
+  getPatientsAndSurgeries,
+  getPatientsByPlanId,
 };
