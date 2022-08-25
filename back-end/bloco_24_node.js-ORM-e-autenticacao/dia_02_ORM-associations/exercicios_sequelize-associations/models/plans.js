@@ -1,5 +1,5 @@
-const Plans = (sequelize, DataTypes) => {
-  const Plans = sequelize.define('Plans', {
+const plans = (sequelize, DataTypes) => {
+  const plans = sequelize.define('Plans', {
     plan_id: {
       type: DataTypes.INTEGER,
       primaryKey: true 
@@ -8,11 +8,11 @@ const Plans = (sequelize, DataTypes) => {
     price: DataTypes.DOUBLE,
   }, { timestamps: false });
 
-  Plans.associate = (models) => {
-    Plans.hasMany(models.Patients, { foreignKey: 'plan_id', as: 'patients' });
+  plans.associate = (models) => {
+    plans.hasMany(models.Patients, { foreignKey: 'plan_id' });
   };
 
-  return Plans;
+  return plans;
 };
 
-module.exports = Plans
+module.exports = plans

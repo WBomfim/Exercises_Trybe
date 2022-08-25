@@ -1,5 +1,5 @@
-const Patients = (sequelize, DataTypes) => {
-  const Patients = sequelize.define('Patients', {
+const patients = (sequelize, DataTypes) => {
+  const patients = sequelize.define('Patients', {
     patient_id: {
       type: DataTypes.INTEGER,
       primaryKey: true
@@ -11,11 +11,11 @@ const Patients = (sequelize, DataTypes) => {
     }
   }, { timestamps: false });
 
-  Patients.associate = (models) => {
-    Patients.belongsTo(models.Plans, { foreignKey: 'plan_id', as: 'plans' });
+  patients.associate = (models) => {
+    patients.belongsTo(models.Plans, { foreignKey: 'plan_id' });
   };
 
-  return Patients;
+  return patients;
 };
 
-module.exports = Patients;
+module.exports = patients;
