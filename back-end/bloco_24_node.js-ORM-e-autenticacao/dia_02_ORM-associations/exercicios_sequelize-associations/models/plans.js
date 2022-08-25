@@ -2,7 +2,8 @@ const plans = (sequelize, DataTypes) => {
   const plans = sequelize.define('Plans', {
     plan_id: {
       type: DataTypes.INTEGER,
-      primaryKey: true 
+      primaryKey: true,
+      autoIncrement: true,
     },
     coverage: DataTypes.STRING,
     price: DataTypes.DOUBLE,
