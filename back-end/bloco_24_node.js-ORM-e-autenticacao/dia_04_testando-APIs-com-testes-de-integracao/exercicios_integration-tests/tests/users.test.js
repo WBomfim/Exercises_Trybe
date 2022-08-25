@@ -46,6 +46,19 @@ describe('Testes de autenticação do token em /api/users/:id', () => {
     expect(userResponse.body).to.contain(fakeUserDB[0]);
   });
 
+  it('Com um token recebido, a pessoa usuária logada não pode ter acesso aos dados de outra pessoa usuária', async () => {
+    const { token } = loginResponse.body;
+
+    const userResponse = await chai
+      .request(server)
+      .get("/api/users/2")
+      .set('authorization', token);
+
+    expect(userResponse).to.have.status(401);
+    expect(userResponse.body.message)
+      .to.be.equal('Acesso negado');
+  });
+
   it('Sem a utilização do token, a resposta para mesma requisição deve receber status de "Não encontrado"', async () => {
     const userResponse = await chai
       .request(server)
