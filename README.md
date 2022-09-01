@@ -205,8 +205,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 25: Deployment
 
-- [ ] 1: _Introdução - Deploy_
-- [ ] 1: _Infraestrutura - Deploy com Heroku_
+- [x] 1: _Introdução - Deploy_
+- [x] 1: _Infraestrutura - Deploy com Heroku_
 - [ ] 2: _Deploy Docker & Heroku_
 - [ ] 3: _**Projeto** - Stranger Things_
 
