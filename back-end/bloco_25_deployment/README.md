@@ -4,4 +4,10 @@
 
 Esse bloco pertence ao módulo de `back-end` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... :hourglass_flowing_sand:
+Nesse bloco aprendi:
+
+- A realizar um deploy através do `Heroku`;
+- Visualizar logs e monitorar as aplicações publicadas;
+- Implementar a pipeline `CI/CD`;
+- Implementar Actions no GitHub.
+
