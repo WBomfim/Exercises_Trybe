@@ -13,4 +13,4 @@ enum months {
     DEZEMBRO = 'Dezembro'
 }
 
-module.exports = months;
+export default months;
