@@ -212,9 +212,9 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 26: TypeScript
 
-- [ ] 1: _Introdução - TypeScript_
-- [ ] 1: _Introdução ao TypeScript_
-- [ ] 2: _Tipagem Estática e Generics_
+- [x] 1: _Introdução - TypeScript_
+- [x] 1: _Introdução ao TypeScript_
+- [x] 2: _Tipagem Estática e Generics_
 - [ ] 3: _Express com TypeScript_
 - [ ] 4: _**Projeto** Trybe Smith_
 
