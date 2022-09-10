@@ -1,3 +1,5 @@
+import * as readline from 'readline-sync';
+
 enum units {
   km = 1000,
   hm = 100,
@@ -10,10 +12,18 @@ enum units {
 
 type keyUnits = keyof typeof units;
 
-const convertUnits = (value: number, unitBase: keyUnits, unitConvert: keyUnits): number => {
+const convertUnits = (value: number, unitBase: keyUnits, unitConvert: keyUnits): void => {
   const base = units[unitBase];
   const convert = units[unitConvert];
-  return value * base / convert;
+  const result = (value * base) / convert;
+  console.log(`${value} ${unitBase} = ${result} ${unitConvert}`);
 };
 
-console.log(convertUnits(1, 'km', 'm'));
+const value: number = readline.questionFloat('insira o valor a ser convertido: ');
+const unitsNames = ['km', 'hm', 'dam', 'm', 'dm', 'cm', 'mm'];
+const valueBase = readline.keyInSelect(unitsNames, 'insira a unidade de medida do valor a ser convertido: ');
+const unitBase = unitsNames[valueBase] as keyUnits;
+const valueConvert = readline.keyInSelect(unitsNames, 'insira a unidade de medida para conversão: ');
+const unitConvert = unitsNames[valueConvert] as keyUnits;
+
+convertUnits(value, unitBase, unitConvert);
