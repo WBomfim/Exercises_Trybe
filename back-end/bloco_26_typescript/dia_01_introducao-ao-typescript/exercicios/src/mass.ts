@@ -16,7 +16,7 @@ const convertUnits = (value: number, unitBase: keyUnits, unitConvert: keyUnits):
   const base = units[unitBase];
   const convert = units[unitConvert];
   const result = (value * base) / convert;
-  console.log(`${value} ${unitBase} = ${result} ${unitConvert}`);
+  console.log(`\n${value} ${unitBase} = ${result} ${unitConvert}`);
 };
 
 const exec = (): void => {
