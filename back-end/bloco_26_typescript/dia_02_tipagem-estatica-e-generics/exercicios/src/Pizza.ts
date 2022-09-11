@@ -11,13 +11,13 @@ const calabresa1: Pizza = {
   flavor: 'Calabresa',
   slices: 8
 };
-console.log(calabresa);
+console.log(calabresa1);
 
-const marguerita2: Pizza = {
+const marguerita1: Pizza = {
   flavor: "Marguerita",
   slices: 6
 }
-console.log(marguerita);
+console.log(marguerita1);
 
 type Comum = 'calabresa' | 'frango' | 'pepperoni';
 type Vegetariana = 'marguerita' | 'palmito' | 'cogumelos';
@@ -42,11 +42,11 @@ const calabresa2: PizzaComum = {
 console.log(calabresa2);
 
 
-const marguerita3: PizzaVegetariana = {
+const marguerita2: PizzaVegetariana = {
   flavor: "marguerita",
   slices: 6
 };
-console.log(marguerita3);
+console.log(marguerita2);
 
 const nutela: PizzaDoce = {
   flavor: "nutela",
