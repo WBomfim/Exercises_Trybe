@@ -20,14 +20,14 @@ const convertUnits = (value: number, unitBase: keyUnits, unitConvert: keyUnits):
 };
 
 const exec = (): void => {
-const value: number = readline.questionFloat('insira o valor a ser convertido: ');
-const unitsNames = ['kg', 'hg', 'dag', 'g', 'dg', 'cg', 'mg'];
-const valueBase = readline.keyInSelect(unitsNames, 'insira a unidade de medida do valor a ser convertido: ');
-const unitBase = unitsNames[valueBase] as keyUnits;
-const valueConvert = readline.keyInSelect(unitsNames, 'insira a unidade de medida para conversão: ');
-const unitConvert = unitsNames[valueConvert] as keyUnits;
+  const value: number = readline.questionFloat('insira o valor a ser convertido: ');
+  const unitsNames = ['kg', 'hg', 'dag', 'g', 'dg', 'cg', 'mg'];
+  const valueBase = readline.keyInSelect(unitsNames, 'insira a unidade de medida do valor a ser convertido: ');
+  const unitBase = unitsNames[valueBase] as keyUnits;
+  const valueConvert = readline.keyInSelect(unitsNames, 'insira a unidade de medida para conversão: ');
+  const unitConvert = unitsNames[valueConvert] as keyUnits;
 
-convertUnits(value, unitBase, unitConvert);
+  convertUnits(value, unitBase, unitConvert);
 };
 
 exec();

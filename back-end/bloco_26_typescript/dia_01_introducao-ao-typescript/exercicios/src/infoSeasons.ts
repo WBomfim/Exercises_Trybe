@@ -7,22 +7,22 @@ const monthsNames = Object.values(Months);
 const choiceMonth = readline.keyInSelect(monthsNames, "Escolha um mês do ano");
 
 const seasonsSouth = {
-    [Seasons.OUTONO]: [Months.MARCO, Months.ABRIL, Months.MAIO, Months.JUNHO],
-    [Seasons.INVERNO]: [Months.JUNHO, Months.JULHO, Months.AGOSTO, Months.SETEMBRO],
-    [Seasons.PRIMAVERA]: [Months.SETEMBRO, Months.OUTUBRO, Months.NOVEMBRO, Months.DEZEMBRO],
-    [Seasons.VERAO]: [Months.DEZEMBRO, Months.JANEIRO, Months.FEVEREIRO, Months.MARCO],
+  [Seasons.OUTONO]: [Months.MARCO, Months.ABRIL, Months.MAIO, Months.JUNHO],
+  [Seasons.INVERNO]: [Months.JUNHO, Months.JULHO, Months.AGOSTO, Months.SETEMBRO],
+  [Seasons.PRIMAVERA]: [Months.SETEMBRO, Months.OUTUBRO, Months.NOVEMBRO, Months.DEZEMBRO],
+  [Seasons.VERAO]: [Months.DEZEMBRO, Months.JANEIRO, Months.FEVEREIRO, Months.MARCO],
 }
 
 const seasonsNorth = {
-    [Seasons.PRIMAVERA]: seasonsSouth[Seasons.OUTONO],
-    [Seasons.VERAO]: seasonsSouth[Seasons.INVERNO],
-    [Seasons.OUTONO]: seasonsSouth[Seasons.PRIMAVERA],
-    [Seasons.INVERNO]: seasonsSouth[Seasons.VERAO],
+  [Seasons.PRIMAVERA]: seasonsSouth[Seasons.OUTONO],
+  [Seasons.VERAO]: seasonsSouth[Seasons.INVERNO],
+  [Seasons.OUTONO]: seasonsSouth[Seasons.PRIMAVERA],
+  [Seasons.INVERNO]: seasonsSouth[Seasons.VERAO],
 }
 
 const hemispheres = {
-    "Norte": seasonsNorth,
-    "Sul": seasonsSouth
+  "Norte": seasonsNorth,
+  "Sul": seasonsSouth
 }
 
 const choiceHemisphere = readline.keyInSelect(Object.keys(hemispheres), "Escolha um hemisfério");
