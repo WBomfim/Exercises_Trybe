@@ -33,4 +33,16 @@ export default class BookModel {
     const { insertId } = dataInserted;
     return { id: insertId, ...book };
   }
+
+  public async update(id: number, book: Book): Promise<Book> {
+    const { title, price, author, isbn } = book;
+    const query = 'UPDATE books SET title = ?, price = ?, author = ?, isbn = ? WHERE id = ?';
+    await this.connection.execute(query, [title, price, author, isbn, id]);
+    return { id, ...book };
+  };
+
+  public async delete(id: number): Promise<void> {
+    const query = 'DELETE FROM books WHERE id = ?';
+    await this.connection.execute(query, [id]);
+  };
 }
