@@ -215,8 +215,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 1: _Introdução - TypeScript_
 - [x] 1: _Introdução ao TypeScript_
 - [x] 2: _Tipagem Estática e Generics_
-- [ ] 3: _Express com TypeScript_
-- [ ] 4: _**Projeto** Trybe Smith_
+- [x] 3: _Express com TypeScript_
+- [x] 4: _**Projeto** Trybe Smith_
 
 #### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
