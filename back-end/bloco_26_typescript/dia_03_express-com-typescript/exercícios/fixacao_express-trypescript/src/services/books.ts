@@ -18,6 +18,11 @@ class BookService {
     const book = await this.model.getById(id);
     return book;
   }
+
+  public async create(book: Book): Promise<Book> {
+    const newBook = await this.model.create(book);
+    return newBook;
+  }
 }
 
 export default BookService;
