@@ -9,7 +9,7 @@ class Book extends Model {
   isbn!: string;
 }
 
-export default Book.init({
+Book.init({
   id: {
     type: INTEGER,
     allowNull: false,
@@ -36,3 +36,5 @@ export default Book.init({
   modelName: 'books',
   timestamps: false,
 });
+
+export default Book;
