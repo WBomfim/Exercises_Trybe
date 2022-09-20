@@ -1,13 +1,17 @@
 import Person from "./Person";
+import Enrollable from "./Enrollable";
+import EvaluationResult from "./EvaluationResult";
 
-export default class Student extends Person {
+export default class Student extends Person implements Enrollable {
   private _enrollment = String();
+  private _evaluationResults: EvaluationResult[];
   private _examsGrades: number[] = [];
   private _worksGrades: number[] = [];
 
   constructor(name: string, birthDate: Date) {
     super(name, birthDate);
     this.enrollment = this.generateEnrollment();
+    this._evaluationResults = [];
   }
 
   get enrollment(): string {
@@ -15,7 +19,9 @@ export default class Student extends Person {
   }
 
   set enrollment(value: string) {
-    if (value.length < 16) throw new Error('A matrícula deve possuir no mínimo 16 caracteres.');
+    if (value.length < 16) {
+      throw new Error('A matrícula deve possuir no mínimo 16 caracteres.')
+    }
 
     this._enrollment = value;
   }
@@ -25,7 +31,9 @@ export default class Student extends Person {
   }
 
   set examsGrades(value: number[]) {
-    if (value.length > 4) throw new Error('A pessoa estudante só pode possuir 4 notas de provas.');
+    if (value.length > 4) {
+      throw new Error('O aluno não pode ter mais que 4 notas em provas.')
+    }
 
     this._examsGrades = value;
   }
@@ -35,14 +43,34 @@ export default class Student extends Person {
   }
 
   set worksGrades(value: number[]) {
-    if (value.length > 2) throw new Error('A pessoa estudante só pode possuir 2 notas de trabalhos.');
+    if (value.length > 2) {
+      throw new Error('O aluno não pode ter mais que 2 notas em trabalhos.')
+    }
 
     this._worksGrades = value;
+  }
+
+  sumGrades(): number {
+    const examsSum = this.examsGrades.reduce((acc, cur) => acc + cur);
+    const worksSum = this.worksGrades.reduce((acc, cur) => acc + cur);
+
+    return examsSum + worksSum;
+  }
+
+  sumAverageGrade(): number {
+    const sum = this.sumGrades();
+    const div = this.examsGrades.length + this.worksGrades.length;
+
+    return Math.round(sum / div);
   }
 
   generateEnrollment(): string {
     const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
 
     return `STU${randomStr}`;
+  }
+
+  addEvaluationResult(value: EvaluationResult): void {
+    this._evaluationResults.push(value);
   }
 }
