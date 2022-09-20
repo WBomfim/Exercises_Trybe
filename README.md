@@ -222,7 +222,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [x] 1: _Introdução à Orientação a Objetos_
 - [x] 2: _Herança e Interfaces_
-- [ ] 3: _Polimorfismo_
+- [x] 3: _Polimorfismo_
 - [ ] 4: _SOLID - Introdução_
 - [ ] 5: _SOLID - Continuação_
 - [ ] 6: _**Projeto** - Trybers and Dragons_
