@@ -64,7 +64,6 @@ export default class Student extends Person implements Enrollable {
     return Math.round(sum / div);
   }
 
-  
   generateEnrollment(): string {
     const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
 
