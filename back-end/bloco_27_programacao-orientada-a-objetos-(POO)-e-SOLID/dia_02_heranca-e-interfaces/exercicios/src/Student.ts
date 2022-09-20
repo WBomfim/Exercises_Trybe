@@ -1,14 +1,17 @@
 import Person from "./Person";
 import Enrollable from "./Enrollable";
+import EvaluationResult from "./EvaluationResult";
 
 export default class Student extends Person implements Enrollable {
   private _enrollment = String();
+  private _evaluationResults: EvaluationResult[];
   private _examsGrades: number[] = [];
   private _worksGrades: number[] = [];
 
   constructor(name: string, birthDate: Date) {
     super(name, birthDate);
     this.enrollment = this.generateEnrollment();
+    this._evaluationResults = [];
   }
 
   get enrollment(): string {
@@ -66,5 +69,9 @@ export default class Student extends Person implements Enrollable {
     const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
 
     return `STU${randomStr}`;
+  }
+
+  addEvaluationResult(value: EvaluationResult): void {
+    this._evaluationResults.push(value);
   }
 }
