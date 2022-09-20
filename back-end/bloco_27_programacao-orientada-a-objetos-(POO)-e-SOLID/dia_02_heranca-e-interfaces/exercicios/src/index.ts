@@ -4,14 +4,6 @@ import Employee from './Employee';
 import Subject from './Subject';
 import Teacher from './Teacher';
 
-const maria = new Person('Maria da Consolação', new Date('1980/01/25'));
-const luiza = new Person('Luiza Andrade', new Date('2005/10/02'));
-
-console.log(maria);
-console.log(luiza);
-
-////////////////////////////////////////////////////////////////////////////////////
-
 const carolina = new Student('Carolina da Silva', new Date('2005/03/17'));
 const lucas = new Student('Lucas Peixoto Salgueiro', new Date('2006/07/19'));
 const jessica = new Student('Jéssica Bianca Nunes', new Date('2004/06/06'));
