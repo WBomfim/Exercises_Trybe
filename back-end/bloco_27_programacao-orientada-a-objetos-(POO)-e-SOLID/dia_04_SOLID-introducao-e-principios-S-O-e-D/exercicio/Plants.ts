@@ -15,7 +15,7 @@ class Plants {
   private readonly plantsFile = 'plantsData.json';
   private readonly opsFile = 'opsInfo.json';
 
-  public initPlant(plant: IPlant): IPlant {
+  public static initPlant(plant: IPlant): IPlant {
     const { id, breed, needsSun, origin, specialCare, size } = plant;
     const waterFrequency = needsSun
       ? size * 0.77 + (origin === 'Brazil' ? 8 : 7)
@@ -42,9 +42,7 @@ class Plants {
     return plants;
   }
 
-  public async getPlantById(
-    id: string,
-  ): Promise<IPlant | null> {
+  public async getPlantById(id: string): Promise<IPlant | null> {
     const plantsRaw = await fs.readFile(this.plantsFile, { encoding: 'utf8' });
     const plants: IPlant[] = JSON.parse(plantsRaw);
 
@@ -53,9 +51,7 @@ class Plants {
     return plantById;
   }
 
-  public async removePlantById(
-    id: string,
-  ): Promise<IPlant | null> {
+  public async removePlantById(id: string): Promise<IPlant | null> {
     const plantsRaw = await fs.readFile(this.plantsFile, { encoding: 'utf8' });
     const plants: IPlant[] = JSON.parse(plantsRaw);
 
@@ -68,9 +64,7 @@ class Plants {
     return removedPlant;
   }
 
-  public async getPlantsThatNeedsSunWithId(
-    id: string,
-  ): Promise<IPlant[]> {
+  public async getPlantsThatNeedsSunWithId(id: string): Promise<IPlant[]> {
     const plantsRaw = await fs.readFile(this.plantsFile, { encoding: 'utf8' });
     const plants: IPlant[] = JSON.parse(plantsRaw);
 
@@ -83,10 +77,7 @@ class Plants {
     return filteredPlants;
   }
 
-  public async editPlant(
-    plantId: string,
-    newPlant: IPlant,
-  ): Promise<IPlant> {
+  public async editPlant(plantId: string, newPlant: IPlant): Promise<IPlant> {
     const plantsRaw = await fs.readFile(this.plantsFile, { encoding: 'utf8' });
     const plants: IPlant[] = JSON.parse(plantsRaw);
 
@@ -99,13 +90,11 @@ class Plants {
     return newPlant;
   }
 
-  public async savePlant(
-    plant: IPlant,
-  ): Promise<IPlant> {
+  public async savePlant(plant: IPlant): Promise<IPlant> {
     const plantsRaw = await fs.readFile(this.plantsFile, { encoding: 'utf8' });
     const plants: IPlant[] = JSON.parse(plantsRaw);
 
-    const newPlant = this.initPlant({ ...plant });
+    const newPlant = Plants.initPlant({ ...plant });
     plants.push(newPlant);
 
     const opsInfoRaw = await fs.readFile(this.opsFile, { encoding: 'utf8' });
