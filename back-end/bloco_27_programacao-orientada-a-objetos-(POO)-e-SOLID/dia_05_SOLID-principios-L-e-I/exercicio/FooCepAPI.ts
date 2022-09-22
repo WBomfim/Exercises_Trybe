@@ -1,4 +1,6 @@
-class FooCepAPI {
+import CepAPI from './CepAPI';
+
+export default class FooCepAPI implements CepAPI {
   async getAddressByCEP(cep: string, number: number): Promise<string> {
     return `O endereço para o "CEP:${cep}, n°:${number}" é "endereço foo"`;
   }
@@ -7,5 +9,3 @@ class FooCepAPI {
     return `O CEP para: "${address}, n°: ${number}" é "CEP baz"`;
   }
 }
-
-export default FooCepAPI;

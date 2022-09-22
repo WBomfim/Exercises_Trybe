@@ -1,8 +1,8 @@
-import FooCepAPI from './FooCepAPI';
+import CepAPI from './CepAPI';
 
 class CepService {
   constructor(
-    private readonly cepApi: FooCepAPI,
+    private readonly cepApi: CepAPI,
   ) {}
 
   addressByCep(cep: string, num: number): Promise<string> {
