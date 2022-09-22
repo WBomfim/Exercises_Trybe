@@ -223,8 +223,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 1: _Introdução à Orientação a Objetos_
 - [x] 2: _Herança e Interfaces_
 - [x] 3: _Polimorfismo_
-- [ ] 4: _SOLID - Introdução_
-- [ ] 5: _SOLID - Continuação_
+- [x] 4: _SOLID - Introdução_
+- [x] 5: _SOLID - Continuação_
 - [ ] 6: _**Projeto** - Trybers and Dragons_
 
 #### Bloco 28: Projeto - TFC - Trybe Futebol Clube
