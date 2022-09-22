@@ -4,5 +4,12 @@
 
 Esse bloco pertence ao módulo de `back-end` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... :hourglass_flowing_sand:
+Nesse bloco aprendi:
+
+- O que é paradigma Programação Orientada a Objetos;
+- Os pilares da Programação Orientada a Objetos;
+- Os princípios SOLID;
+- Como aplicar os princípios SOLID nos códigos que criamos.
+
+
 
