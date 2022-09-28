@@ -225,11 +225,11 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 3: _Polimorfismo_
 - [x] 4: _SOLID - Introdução_
 - [x] 5: _SOLID - Continuação_
-- [ ] 6: _**Projeto** - Trybers and Dragons_
+- [x] 6: _**Projeto** - Trybers and Dragons_
 
 #### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 1: _**Projeto** - TFC - Trybe Futebol Clube_
+- [x] 1: _**Projeto** - TFC - Trybe Futebol Clube_
 
 #### Bloco 29: Introdução ao MongoDB
 
