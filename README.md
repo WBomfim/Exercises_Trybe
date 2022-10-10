@@ -151,7 +151,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 ## <u>Desenvolvimento Back-end</u> :hourglass_flowing_sand:
 
-#### BBloco 19: Docker: Utilizando Containers
+#### Bloco 19: Docker: Utilizando Containers
 
 - [x] 1: _Introdução - Back-end_
 - [x] 1: _Utilizando Containers - Docker_
@@ -233,26 +233,27 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 29: Introdução ao MongoDB
 
-- [ ] 1: _Introdução - NoSQL_
-- [ ] 1: _MongoDB - Introdução_
+- [x] 1: _MongoDB - Introdução_
 - [ ] 2: _Filter Operators_
-- [ ] 3: _**Projeto** - DataFlights_
+- [ ] 3: _Operadores de consulta_
+- [ ] 4: _Updates Simples_
+- [ ] 5: _Updates Complexos - Arrays_
+- [ ] 6: _**Projeto** - Commerce_
 
-#### Bloco 30: MongoDB: Updates Simples e Complexos
+#### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 1: _Updates Simples_
-- [ ] 2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 4: _**Projeto** - Commerce_
+- [ ] 1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 4: _**Projeto** - Car Shop_
 
-#### MasterClass - VPS, CI/CD
+#### Bloco 31: Projeto - App de Delivery
+
+- [ ] 1: _**Projeto** - App de Delivery_
+
+#### Bloco 32: MasterClass - VPS, CI/CD
 
 - [ ] 1: _Dia 1_
 - [ ] 2: _Dia 2_
-
-#### Bloco 32: Projeto - App de Delivery
-
-- [ ] 1: _**Projeto** - App de Delivery_
 
 
 
