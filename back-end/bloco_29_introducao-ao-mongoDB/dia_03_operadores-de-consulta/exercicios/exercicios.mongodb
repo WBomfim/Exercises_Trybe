@@ -139,3 +139,6 @@ db.movies.find({
     $regex: /humanity.$/
   }
 }).pretty();
+
+//Retorna o status da execução da query
+db.movies.find().explain('executionStats');
