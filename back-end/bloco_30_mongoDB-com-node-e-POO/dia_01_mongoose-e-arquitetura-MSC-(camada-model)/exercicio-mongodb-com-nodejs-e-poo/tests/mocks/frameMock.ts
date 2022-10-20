@@ -1,4 +1,4 @@
-import IFrame from '../../interfaces/Frame';
+import IFrame from '../../src/interfaces/Frame';
 
 const frameMock: IFrame = {
   material: 'Ouro',
