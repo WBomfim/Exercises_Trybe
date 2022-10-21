@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import Sinon from "sinon";
 import { Model }  from "mongoose";
-import { lensMock, lensMockWithId } from "../../mocks/lensMock";
+import { lensMock, lensMockWithId, lensMockAll } from "../../mocks/lensMock";
 import LensModel from "../../../src/models/Lens";
 
 describe("Lens Model", () => {
@@ -10,6 +10,7 @@ describe("Lens Model", () => {
   before(() => {
     Sinon.stub(Model, "create").resolves(lensMockWithId);
     Sinon.stub(Model, "findOne").resolves(lensMockWithId);
+    Sinon.stub(Model, "find").resolves(lensMockAll);
   });
 
   after(() => Sinon.restore());
@@ -33,6 +34,13 @@ describe("Lens Model", () => {
       } catch (error: any) {
         expect(error.message).to.be.eq("InvalidMongoId");
       }
+    });
+  });
+
+  describe("searching all lenses", () => {
+    it("successfully found", async () => {
+      const lensesFound = await lensModel.readAll();
+      expect(lensesFound).to.be.deep.equal(lensMockAll);
     });
   });
 });
