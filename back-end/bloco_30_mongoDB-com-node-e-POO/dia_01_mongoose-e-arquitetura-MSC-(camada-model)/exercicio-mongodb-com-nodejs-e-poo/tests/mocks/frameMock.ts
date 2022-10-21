@@ -1,14 +1,30 @@
 import IFrame from '../../src/interfaces/Frame';
 
-const frameMock: IFrame = {
+export const frameMock: IFrame = {
   material: 'Ouro',
   color: 'Daquele naipe'
 };
 
-const frameMockWithId: IFrame & { _id:string } = {
+export const frameMockWithId: IFrame & { _id:string } = {
   _id: '62cf1fc6498565d94eba52cd',
   material: 'Ouro',
   color: 'Daquele naipe'
 };
 
-export { frameMock, frameMockWithId };
+export const frameMockAll: (IFrame & { _id:string })[] = [
+  {
+    _id: '62cf1fc6498565d94eba52cd',
+    material: 'Ouro',
+    color: 'Daquele naipe'
+  },
+  {
+    _id: '62cf1fc6498565d94eba52ce',
+    material: 'Prata',
+    color: 'Daquele naipe'
+  },
+  {
+    _id: '62cf1fc6498565d94eba52cf',
+    material: 'Bronze',
+    color: 'Daquele naipe'
+  }
+];
