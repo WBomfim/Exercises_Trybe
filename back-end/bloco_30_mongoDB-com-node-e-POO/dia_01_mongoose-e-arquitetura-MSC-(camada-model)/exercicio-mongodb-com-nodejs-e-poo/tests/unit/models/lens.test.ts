@@ -11,6 +11,7 @@ describe("Lens Model", () => {
     Sinon.stub(Model, "create").resolves(lensMockWithId);
     Sinon.stub(Model, "findOne").resolves(lensMockWithId);
     Sinon.stub(Model, "find").resolves(lensMockAll);
+    Sinon.stub(Model, "findByIdAndDelete").resolves(lensMockWithId);
   });
 
   after(() => Sinon.restore());
@@ -41,6 +42,21 @@ describe("Lens Model", () => {
     it("successfully found", async () => {
       const lensesFound = await lensModel.readAll();
       expect(lensesFound).to.be.deep.equal(lensMockAll);
+    });
+  });
+
+  describe("deleting a lens", () => {
+    it("successfully deleted", async () => {
+      const lensDeleted = await lensModel.destroy("62cf1fc6498565d94eba52cd");
+      expect(lensDeleted).to.be.deep.equal(lensMockWithId);
+    });
+
+    it("_id not found", async () => {
+      try {
+        await lensModel.destroy("123ERRADO");
+      } catch (error: any) {
+        expect(error.message).to.be.eq("InvalidMongoId");
+      }
     });
   });
 });
