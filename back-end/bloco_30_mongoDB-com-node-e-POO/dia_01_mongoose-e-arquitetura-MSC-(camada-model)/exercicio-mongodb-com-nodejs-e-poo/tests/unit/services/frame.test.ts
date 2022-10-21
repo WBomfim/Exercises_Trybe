@@ -17,6 +17,9 @@ describe('Frame Service', () => {
 			.onCall(0).resolves(frameMockWithId) 
 			.onCall(1).resolves(null);
 		sinon.stub(frameModel, 'readAll').resolves(frameMockAll);
+		sinon.stub(frameModel, 'destroy')
+    	.onCall(0).resolves(frameMockWithId)
+    	.onCall(1).resolves(null);
 	})
 
 	after(() => sinon.restore());
@@ -63,6 +66,23 @@ describe('Frame Service', () => {
 
 			const frames = await frameService.readAll();
 			expect(frames).to.be.deep.equal(frameMockAll);
+		});
+	});
+
+	describe('Delete Frame', () => {
+		it('Success', async () => {
+			const frames = await frameService.destroy(frameMockWithId._id);
+			expect(frames).to.be.deep.equal(frameMockWithId);
+		});
+
+		it('Failure', async () => {
+      let error;
+			try {
+				await frameService.destroy(frameMockWithId._id);
+			} catch (err: any) {
+        error = err
+			}
+      expect(error.message).to.be.deep.equal(ErrorTypes.EntityNotFound);
 		});
 	});
 });
