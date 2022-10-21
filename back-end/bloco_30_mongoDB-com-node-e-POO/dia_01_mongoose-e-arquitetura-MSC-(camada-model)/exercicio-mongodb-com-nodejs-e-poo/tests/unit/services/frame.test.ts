@@ -4,7 +4,7 @@ import { ZodError } from 'zod';
 import { ErrorTypes } from '../../../src/errors/catalog';
 import FrameModel from '../../../src/models/Frame';
 import FrameService from '../../../src/services/Frame';
-import { frameMock, frameMockWithId } from '../../mocks/frameMock';
+import { frameMock, frameMockWithId, frameMockAll } from '../../mocks/frameMock';
 
 describe('Frame Service', () => {
 	const frameModel = new FrameModel();
@@ -15,7 +15,8 @@ describe('Frame Service', () => {
 		sinon.stub(frameModel, 'create').resolves(frameMockWithId);
 		sinon.stub(frameModel, 'readOne')
 			.onCall(0).resolves(frameMockWithId) 
-			.onCall(1).resolves(null); 
+			.onCall(1).resolves(null);
+		sinon.stub(frameModel, 'readAll').resolves(frameMockAll);
 	})
 
 	after(() => sinon.restore());
@@ -54,6 +55,14 @@ describe('Frame Service', () => {
 
 			expect(error, 'error should be defined').not.to.be.undefined;
 			expect(error.message).to.be.deep.equal(ErrorTypes.EntityNotFound);
+		});
+	});
+
+	describe('Read all Frames', () => {
+		it('Success', async () => {
+
+			const frames = await frameService.readAll();
+			expect(frames).to.be.deep.equal(frameMockAll);
 		});
 	});
 });

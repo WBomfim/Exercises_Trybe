@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import * as sinon from 'sinon';
 import { NextFunction, Request, Response } from 'express';
-import { frameMock, frameMockWithId } from '../../mocks/frameMock';
+import { frameMock, frameMockWithId, frameMockAll } from '../../mocks/frameMock';
 import FrameController from '../../../src/controllers/Frame';
 import FrameService from '../../../src/services/Frame';
 import FrameModel from '../../../src/models/Frame';
@@ -38,6 +38,16 @@ describe('Frame Controller', () => {
 
       expect((res.status as sinon.SinonStub).calledWith(200)).to.be.true;
       expect((res.json as sinon.SinonStub).calledWith(frameMock)).to.be.true;
+    });
+  });
+
+  describe('Read Frame', () => {
+    it('Success', async () => {
+      sinon.stub(frameService, 'readAll').resolves(frameMockAll);
+      await frameController.readAll(req, res);
+
+      expect((res.status as sinon.SinonStub).calledWith(200)).to.be.true;
+      expect((res.json as sinon.SinonStub).calledWith(frameMockAll)).to.be.true;
     });
   });
 });
