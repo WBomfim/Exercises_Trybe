@@ -248,7 +248,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 31: Projeto - App de Delivery
 
-- [ ] 1: _**Projeto** - App de Delivery_
+- [x] 1: _**Projeto** - App de Delivery_
 
 #### Bloco 32: MasterClass - VPS, CI/CD
 
