@@ -252,8 +252,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 32: MasterClass - VPS, CI/CD
 
-- [ ] 1: _Dia 1_
-- [ ] 2: _Dia 2_
+- [x] 1: _Dia 1_
+- [x] 2: _Dia 2_
 
 
 
@@ -261,7 +261,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 33: Introdução à Python
 
-- [ ] 1: _Introdução - Ciência da Computação_
+- [x] 1: _Introdução - Ciência da Computação_
 - [ ] 2: _Aprendendo Python_
 - [ ] 2: _Entrada e Saída de Dados_
 - [ ] 3: _Testes_
