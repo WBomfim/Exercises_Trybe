@@ -262,10 +262,10 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 #### Bloco 33: Introdução à Python
 
 - [x] 1: _Introdução - Ciência da Computação_
-- [ ] 2: _Aprendendo Python_
-- [ ] 2: _Entrada e Saída de Dados_
-- [ ] 3: _Testes_
-- [ ] 4: _**Projeto** - Job Insights_
+- [x] 1: _Aprendendo Python_
+- [x] 2: _Entrada e Saída de Dados_
+- [x] 3: _Testes_
+- [x] 4: _**Projeto** - Job Insights_
 
 #### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
