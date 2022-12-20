@@ -149,7 +149,7 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 
 
-## <u>Desenvolvimento Back-end</u> :hourglass_flowing_sand:
+## <u>Desenvolvimento Back-end</u>
 
 #### Bloco 19: Docker: Utilizando Containers
 
@@ -267,12 +267,12 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 3: _Testes_
 - [x] 4: _**Projeto** - Job Insights_
 
-#### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
+#### Bloco 34: Padrões de Projeto
 
-- [ ] 1: _Introdução à programação orientada a objetos_
-- [ ] 2: _Herança, Composição e Interfaces_
-- [ ] 3: _Padrões de projeto_
-- [ ] 4: _**Projeto** - Relatórios de Estoque_
+- [x] 1: _P.O.O. em Python_
+- [x] 2: _Padrões - Iterator, Adapter e Strategy_
+- [x] 3: _Padrões - Decorator, Observer e Factory_
+- [x] 4: _**Projeto** - Relatórios de Estoque_
 
 #### Bloco 35: Redes e Raspagem de Dados
 
