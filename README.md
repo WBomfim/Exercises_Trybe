@@ -300,4 +300,86 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [ ] 2: _Pilhas e Filas_
 - [ ] 3: _**Projeto** - TING - Trybe Is Not Google_
 
-# 
+
+
+# <u>Aceleração em Java</u>
+
+A aceleração é uma **formação complementar** concedida pela [Trybe](https://www.betrybe.com/) em parceria com as empresas parceiras do [Hub Floripa](https://hubfloripa.com.br/), nela aprendemos uma nova stack tecnológica desde o básico até as funções principais da linguagem.
+
+## <u>Desenvolvimento com Java</u>
+
+#### Bloco 1: Essenciais de Java
+
+- [x] 1: _Java - Introdução_
+- [x] 2: _Variáveis e seus tipos_
+- [x] 3: _Estruturas condicionais e de repetição_
+- [x] 4: _Finalmente o "Hello, world!" em Java_
+- [x] 5: _Conhecendo melhor o Eclipse_
+
+#### Bloco 2: Orientação a Objetos
+
+- [ ] 1: _Abstração - As Classes em Java_
+- [ ] 2: _Getters e Setters_
+- [ ] 3: _Encapsulamento e Herança_
+- [ ] 4: _Polimorfismo_
+- [ ] 5: _Interfaces e Classes Abstratas_
+
+#### Bloco 3: Manipulação de Textos e Arquivos
+
+- [ ] 1: _Leitura e escrita em arquivos_
+- [ ] 2: _Lidando com Strings_
+
+#### Bloco 4: Tratamento de Erros
+
+- [ ] 1: _Try/Catch! As exceções que Java lança e as formas de pegá-las_
+- [ ] 2: _Refinando o tratamento de erros_
+
+#### Bloco 5: Coleções
+
+- [ ] 1: _List e Set_
+- [ ] 2: _Map_
+- [ ] 3: _Streams: O que são e como criá-las_
+- [ ] 4: _Operando sobre Streams_
+
+#### Bloco 6: Datas
+
+- [ ] 1: _Datas com horários_
+- [ ] 2: _Operações sobre datas ou harários_
+
+#### Bloco 7: Gestão de Dependências
+
+- [ ] 1: _Maven e Gradle_
+
+#### Bloco 8: Testes com JUnit5
+
+- [ ] 1: _Testes unitários com JUnit5_
+- [ ] 2: _TDD com JUnit5_
+
+#### Bloco 9: ORM - Hibernate
+
+- [ ] 1: _Criando entidades_
+- [ ] 2: _Relacionamentos e consultas_
+
+#### Bloco 10: Java Web
+
+- [ ] 1: _Como o Java vai para a Web_
+- [ ] 2: _Logs e Datasources_
+- [ ] 3: _Fazendo deploy de uma aplicação_
+
+#### Bloco 11: Spring
+
+- [ ] 1: _Introdução ao Spring e Spring Boot_
+- [ ] 2: _Injeção de Dependências e organização de uma aplicação Spring_
+- [ ] 3: _REST, SQL e NoSQL_
+- [ ] 4: _Testes no Spring_
+- [ ] 5: _Deploy da aplicação Spring com Railway_
+
+#### Bloco 12: Quarkus
+
+- [ ] 1: _Introdução ao Quarkus_
+- [ ] 2: _API C.R.U.D. com tratamento de exceções_
+- [ ] 3: _Testes com JUnit e Deploy no Railway_
+
+#### Bloco 13: Containers
+
+- [ ] 1: _Java e Docker_
