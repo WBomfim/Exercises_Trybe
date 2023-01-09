@@ -318,11 +318,11 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 #### Bloco 2: Orientação a Objetos
 
-- [ ] 1: _Abstração - As Classes em Java_
-- [ ] 2: _Getters e Setters_
-- [ ] 3: _Encapsulamento e Herança_
-- [ ] 4: _Polimorfismo_
-- [ ] 5: _Interfaces e Classes Abstratas_
+- [x] 1: _Abstração - As Classes em Java_
+- [x] 2: _Getters e Setters_
+- [x] 3: _Encapsulamento e Herança_
+- [x] 4: _Polimorfismo_
+- [x] 5: _Interfaces e Classes Abstratas_
 
 #### Bloco 3: Manipulação de Textos e Arquivos
 
