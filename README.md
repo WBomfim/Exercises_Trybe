@@ -274,10 +274,10 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 35: Redes e Raspagem de Dados
 
-- [ ] 1: _Arquitetura de redes_
-- [ ] 2: _Redes de computadores, ferramenteas e segurança_
-- [ ] 3: _Raspagem de Dados_
-- [ ] 4: _**Projeto** - Tech news_
+- [x] 1: _Arquitetura de redes_
+- [x] 2: _Raspagem de Dados_
+- [x] 3: _Outras Ferramentas de Raspagem de Dados_
+- [x] 4: _**Projeto** - Tech news_
 
 #### Bloco 36: Algoritmos
 
