@@ -1,0 +1,14 @@
+# DIA 01 - Introdução - Complexidade de Algoritmo
+
+Hoje aprendi:
+
+- Descrever a capacidade de analisar o desempenho de um algoritmo ;
+- Definir o que é `algoritmo`;
+- Definir o que é um `algoritmo correto`;
+- A importância da `análise de algoritmos`;
+- Definir `Ordem de Complexidade`, ou `Complexidade Assintótica`;
+- As notações que representam a complexidade de um algoritmo, a saber: `O(1)`, `O(n)`, `O(log n)`, `O(n^2)`, `O(n^3)` e `O(n!)`;
+- Definir `Complexidade de Tempo` e `Complexidade de Espaço`;
+- Definir a categoria de problemas `NP-Completo`;
+- Combinar funções matemáticas para analisar complexidade de algoritmos;
+- Definir o `melhor`, o `pior` e o `caso médio` de uma `Ordem de Complexidade`.
