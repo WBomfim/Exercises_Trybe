@@ -326,13 +326,13 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 #### Bloco 3: Manipulação de Textos e Arquivos
 
-- [ ] 1: _Leitura e escrita em arquivos_
-- [ ] 2: _Lidando com Strings_
+- [x] 1: _Leitura e escrita em arquivos_
+- [x] 2: _Lidando com Strings_
 
 #### Bloco 4: Tratamento de Erros
 
-- [ ] 1: _Try/Catch! As exceções que Java lança e as formas de pegá-las_
-- [ ] 2: _Refinando o tratamento de erros_
+- [x] 1: _Try/Catch! As exceções que Java lança e as formas de pegá-las_
+- [x] 2: _Refinando o tratamento de erros_
 
 #### Bloco 5: Coleções
 
