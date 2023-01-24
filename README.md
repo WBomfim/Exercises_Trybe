@@ -283,8 +283,8 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 - [x] 1: _Complexidade de Algoritmos_
 - [x] 2: _Recursividade e Estratégias para a solução de problemas_
-- [ ] 3: _Algoritmos de ordenação e busca_
-- [ ] 4: _**Projeto** - Algoritmos_
+- [x] 3: _Algoritmos de ordenação e busca_
+- [x] 4: _**Projeto** - Algoritmos_
 
 #### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
