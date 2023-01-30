@@ -286,19 +286,19 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [x] 3: _Algoritmos de ordenação e busca_
 - [x] 4: _**Projeto** - Algoritmos_
 
-#### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
+#### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
-- [ ] 1: _Arquitetura de Computadores_
+- [x] 1: _Arquitetura de Computadores_
 - [ ] 2: _Arrays_
-- [ ] 3: _Hashmap e Dict_
-- [ ] 4: _Set_
-- [ ] 5: _**Projeto** - Restaurant Orders_
+- [ ] 3: _Nó e Listas Encadeadas_
+- [ ] 4: _Pilhas e Filas_
+- [ ] 5: _**Projeto** - TING - Trybe Is Not Google_
 
-#### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
+#### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 1: _Nó e Listas Encadeadas_
-- [ ] 2: _Pilhas e Filas_
-- [ ] 3: _**Projeto** - TING - Trybe Is Not Google_
+- [ ] 1: _Hashmap e Dict_
+- [ ] 2: _Set_
+- [ ] 3: _**Projeto** - Restaurant Orders_
 
 
 
