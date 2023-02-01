@@ -4,5 +4,9 @@
 
 Esse bloco pertence ao módulo de `ciência da computação` do curso da [Trybe](https://www.betrybe.com/). 
 
-Bloco em andamento... :hourglass_flowing_sand:
+Nesse bloco aprendi:
 
+- Um pouco mais sobre arquitetura de computadores;
+- O que são estruturas de dados;
+- O que são tipos abstratos de dados;
+- As características dos Arrays, No e Listas Encadeadas, Pilhas e Filas.
