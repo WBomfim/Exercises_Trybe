@@ -289,10 +289,10 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 #### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
 - [x] 1: _Arquitetura de Computadores_
-- [ ] 2: _Arrays_
-- [ ] 3: _Nó e Listas Encadeadas_
-- [ ] 4: _Pilhas e Filas_
-- [ ] 5: _**Projeto** - TING - Trybe Is Not Google_
+- [x] 2: _Arrays_
+- [x] 3: _Nó e Listas Encadeadas_
+- [x] 4: _Pilhas e Filas_
+- [x] 5: _**Projeto** - TING - Trybe Is Not Google_
 
 #### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
@@ -340,17 +340,17 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 #### Bloco 5: Coleções
 
-- [ ] 1: _List e Set_
-- [ ] 2: _Map_
-- [ ] 3: _Streams: O que são e como criá-las_
-- [ ] 4: _Operando sobre Streams_
-- [ ] 5: _**Projeto** - Consulta de Filmes_
+- [x] 1: _List e Set_
+- [x] 2: _Map_
+- [x] 3: _Streams: O que são e como criá-las_
+- [x] 4: _Operando sobre Streams_
+- [x] 5: _**Projeto** - Consulta de Filmes_
 
 #### Bloco 6: Datas
 
-- [ ] 1: _Datas com horários_
-- [ ] 2: _Operações sobre datas ou harários_
-- [ ] 3: _**Projeto** - Planejamento de Viagem_
+- [x] 1: _Datas com horários_
+- [x] 2: _Operações sobre datas ou harários_
+- [x] 3: _**Projeto** - Planejamento de Viagem_
 
 #### Bloco 7: Gestão de Dependências
 
