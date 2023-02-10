@@ -296,9 +296,9 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
 
-- [ ] 1: _Hashmap e Dict_
-- [ ] 2: _Set_
-- [ ] 3: _**Projeto** - Restaurant Orders_
+- [x] 1: _Hashmap e Dict_
+- [x] 2: _Set_
+- [x] 3: _**Projeto** - Restaurant Orders_
 
 
 
@@ -354,7 +354,7 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 #### Bloco 7: Gestão de Dependências
 
-- [ ] 1: _Maven e Gradle_
+- [x] 1: _Maven e Gradle_
 - [ ] 2: _**Projeto** - Bank Account_
 
 #### Bloco 8: Testes com JUnit5
