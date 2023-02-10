@@ -9,4 +9,4 @@ Nesse bloco aprendi:
 - Um pouco mais sobre arquitetura de computadores;
 - O que são estruturas de dados;
 - O que são tipos abstratos de dados;
-- As características dos Arrays, No e Listas Encadeadas, Pilhas e Filas.
+- As características dos Arrays, Nós e Listas Encadeadas, Pilhas e Filas.
