@@ -34,6 +34,8 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 ​		**✔️ Bloco 9: JavaScript e Testes Assíncronos**
 
+
+
 ### <u>▶️ Desenvolvimento Front-end</u>
 
 ​		**✔️ Bloco 10: Introdução à React**
@@ -53,6 +55,8 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 ​		**✔️ Bloco 17: React & Context API**
 
 ​		**✔️ Bloco 18: Projeto App de Receitas**
+
+
 
 ### <u>▶️ Desenvolvimento Back-end</u>
 
@@ -84,6 +88,8 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 ​		**✔️ Bloco 32: MasterClass - VPS, CI/CD**
 
+
+
 ### <u>▶️ Ciência da Computação</u>
 
 ​		**✔️ Bloco 33: Introdução à Python**
@@ -97,6 +103,8 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 ​		**✔️ Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas**
 
 ​		**✔️ Bloco 38: Estrutura de Dados II: Hashmaps e Sets**
+
+
 
 ### <u>▶️ Desenvolvimento com Java</u>
 
