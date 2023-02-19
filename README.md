@@ -14,7 +14,7 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 ## <u>Sumário:</u>
 
-#### <u>Fundamentos do Desenvolvimento Web</u>
+### <u>Fundamentos do Desenvolvimento Web</u>
 
 ✔️ **Bloco 1: Introdução - Unix & Bash**
 
@@ -34,7 +34,7 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 **✔️ Bloco 9: JavaScript e Testes Assíncronos**
 
-#### <u>Desenvolvimento Front-end</u>
+### <u>Desenvolvimento Front-end</u>
 
 **✔️ Bloco 10: Introdução à React**
 
@@ -54,7 +54,7 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 **✔️ Bloco 18: Projeto App de Receitas**
 
-#### <u>Desenvolvimento Back-end</u>
+### <u>Desenvolvimento Back-end</u>
 
 **✔️ Bloco 19: Docker: Utilizando Containers**
 
@@ -84,7 +84,7 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 **✔️ Bloco 32: MasterClass - VPS, CI/CD**
 
-#### <u>Ciência da Computação</u>
+### <u>Ciência da Computação</u>
 
 **✔️ Bloco 33: Introdução à Python**
 
@@ -98,7 +98,7 @@ A aceleração é uma **formação complementar** concedida pela [Trybe](https:/
 
 **✔️ Bloco 38: Estrutura de Dados II: Hashmaps e Sets**
 
-#### <u>Desenvolvimento com Java</u>
+### <u>Desenvolvimento com Java</u>
 
 **✔️ Bloco 1: Essenciais de Java**
 
