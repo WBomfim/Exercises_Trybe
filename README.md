@@ -1,399 +1,128 @@
-# <u>Trybe - Exercícios</u>
+# <u>Exercícios - Trybe</u>
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Willian Patrick Bomfim](https://www.linkedin.com/in/willianbomfim)_ enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket:
+:rocket: Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Willian Patrick Bomfim](https://www.linkedin.com/in/willianbomfim)_ enquanto estuda na [Trybe](https://www.betrybe.com/). 
+
+## <u>Desenvolvimento Web Full-Stack</u>
 
 O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-
-
-## <u>Fundamentos do Desenvolvimento Web</u>
-
-#### Bloco 1: Introdução - Unix & Bash
-
-- [x] 3: _Fundamentos do Desenvolvimento Web_
-- [x] 3: _Introdução - Unix & Shell_
-- [x] 3: _Unix & Bash- Part 1_
-- [x] 4: _Unix & Bash- Part 2_
-
-#### Bloco 2: Git & GitHub e Internet
-
-- [x] 1: _Git & GitHub - O que é e para que serve?_
-- [x] 2: _Git & GitHub - Entendendo os comandos_
-- [x] 3: _Internet - Entendendo como ela funciona_
-
-#### Bloco 3: Introdução à HTML & CSS
-
-- [x] 1: _Introdução - HTML & CSS_
-- [x] 1: _HTML & CSS - Estruturas de página_
-- [x] 2: _HTML & CSS - Primeiros passos em CSS_
-- [x] 3: _HTML & CSS - Seletores e posicionamento_
-- [x] 4: _HTML Semântico_
-- [x] 5: _**Projeto** - Lessons Learned_
-
-#### Bloco 4: Introdução à JavaScript e Lógica de Programação
-
-- [x] 1: _Introdução - JavaScript_
-- [x] 1: _JavaScript - Primeiros passos_
-- [x] 2: _JavaScript - Array e loop For_
-- [x] 3: _JavaScript - Lógica de Programação e Algoritmos_
-- [x] 4: _JavaScript - Objetos e funções_
-- [x] 5: _**Projeto** - Playground Functions_
-
-#### Bloco 5: JavaScript: DOM, Eventos e Web Storage
-
-- [x] 1: _JavaScript - DOM e seletores_
-- [x] 2: _JavaScript - Trabalhando com elementos_
-- [x] 3: _JavaScript - Eventos_
-- [x] 4: _JavaScript - Web Storage_
-- [x] 5: _Fundamentos - JavaScript - Projetos_
-- [x] 5: _**Projeto** - Arte com Pixels_
-- [x] 6: _**Projeto** - Lista de tarefas_
-
-#### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
-
-- [x] 1: _HTML & CSS - Forms_
-- [x] 2: _Bibliotecas JavaScript e Frameworks CSS_
-- [x] 3: _Introdução - CSS Flexbox_
-- [x] 3: _CSS Flexbox - Part 1_
-- [x] 4: _CSS Flexbox - Part 2_
-- [x] 5: _CSS Responsivo - Mobile First_
-- [x] 6: _**Projeto** - Trybewarts_
-
-#### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
-
-- [x] 1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [x] 2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [x] 3: _Primeiros passos em Jest_
-- [x] 4: _**Projeto** - JavaScript Testes Unitários_
-
-#### Bloco 8: Higher Order Functions do JavaScript ES6
-
-- [x] 1: _JavaScript ES6 -introdução a Higher Order Functions_
-- [x] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [x] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [x] 4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [x] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [x] 6: _**Projeto** - Zoo functions_
-
-#### Bloco 9: JavaScript e Testes Assíncronos
-
-- [x] 1: _JavaScript Assíncrono e Callbacks_
-
-- [x] 2: _JavaScript Assíncrono - Fetch API e async/await_
-
-- [x] 3: _Jest - Testes Assíncronos_
-
-- [x] 4: _**Projeto** - Shopping Cart_
-
-  
-
-## <u>Desenvolvimento Front-end</u>
-
-#### Bloco 10: Introdução à React
-
-- [x] 1: _Introdução - Front-end_
-- [x] 1: _Introdução - React_
-- [x] 1: _'Hello, world!' no React!_
-- [x] 2: _Componentes React_
-- [x] 3: _**Projeto** - Sistema Solar_
-
-#### Bloco 11: Componentes com Estado, Eventos e Formulários com React
-
-- [x] 1: _Components com estado e eventos_
-- [x] 2: _Formulários no React_
-- [x] 3: _**Projeto** - Tryunfo_
-
-#### Bloco 12: Ciclo de Vida de Componentes e React Router
-
-- [x] 1: _Ciclo de vida de componentes_
-- [x] 2: _React Router_
-- [x] 3: _**Projeto** - TrybeTunes_
-
-#### Bloco 13: Metodologias Ágeis
-
-- [x] 1: _Metodologias Ágeis_
-- [x] 2: _**Projeto** - Frontend Online Store_
-
-#### Bloco 14: Testes automatizados com React Testing Library
-
-- [x] 1: _RTL - Primeiros passos_
-- [x] 2: _RTL - Mocks e Inputs_
-- [x] 3: _RTL - Testando React Router_
-- [x] 4: _**Projeto** - Testes em React_
-
-#### Bloco 15: Gerenciamento de estado com Redux
-
-- [x] 1: _Introdução ao Redux - O estado global da aplicação_
-- [x] 2: _Usando o Redux no React_
-- [x] 3: _Usando o Redux no React - Prática_
-- [x] 4: _Usando o Redux no React - Actions Assíncronas_
-- [x] 5: _Testes em React-Redux_
-- [x] 6: _**Projeto** - Trybe Wallet_
-
-#### Bloco 16: Projeto Jogo de Trivia
-
-- [x] 1: _**Projeto** - Jogo de Trivia_
-
-#### Bloco 17: React & Context API
-
-- [x] 1: _Context API do React_
-- [x] 2: _React Hooks - useState e useContext_
-- [x] 3: _React Hooks - useEffect e Hooks customizados_
-- [x] 4: _**Projeto** - StarWars Datatable com Context API e Hooks_
-
-#### Bloco 18: Projeto App de Receitas
-
-- [x] 1: _**Projeto** - App de Receitas_
-
-
-
-## <u>Desenvolvimento Back-end</u>
-
-#### Bloco 19: Docker: Utilizando Containers
-
-- [x] 1: _Introdução - Back-end_
-- [x] 1: _Utilizando Containers - Docker_
-- [x] 2: _Manipulação e Criação de Imagens no Docker_
-- [x] 3: _Orquestrando Containers com Docker Compose_
-- [x] 4: _**Projeto** - Docker Todo-list_
-
-#### Bloco 20: Introdução à SQL
-
-- [x] 1: _Introdução - Bancos de dados relacionais_
-- [x] 1: _Banco de dados SQL_
-- [x] 2: _Encontrando dados em um banco de dados_
-- [x] 3: _Filtrando dados de forma específica_
-- [x] 4: _Manipulando tabelas
-- [x] 5: _**Projeto** - All For One_
-
-#### Bloco 21: Funções SQL, JOINs e Normalização
-
-- [x] 1: _Funções mais usadas no SQL_
-- [x] 2: _Descomplicando JOINs_
-- [x] 3: _Transformando ideias em um modelo de banco de dados_
-- [x] 4: _**Projeto** - One For All_
-
-#### Bloco 22: Introdução ao desenvolvimento Web com Node.js
-
-- [x] 1: _Intro - Node.js_
-- [x] 1: _Node.js - Um motor JavaScript_
-- [x] 2: _Node.js - Fluxo assíncrono_
-- [x] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
-- [x] 4: _Express - HTTP com Node.js_
-- [x] 5: _Express - Middlewares_
-- [x] 6: _**Projeto** - Talker Manager_
-
-#### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
-
-- [x] 1: _Introdução - Arquitetura de Software_
-- [x] 1: _Arquitetura de Software - Camada de Model_
-- [x] 2: _Arquitetura de Software - Camada de Controller e Service_
-- [x] 3: _Arquitetura Web - Rest e Restful_
-- [x] 4: _Arquitetura de Software - Testando as Camadas_
-- [x] 5: _**Projeto** - Store Manager_
-
-#### Bloco 24: Node.js: ORM e Autenticação
-
-- [x] 1: _Introdução - Node.js: ORM e Autenticação_
-- [x] 1: _ORM - Interface da aplicação com o banco de dados_
-- [x] 2: _ORM - Associations_
-- [x] 3: _JWR - JSON Web Token_
-- [x] 4: Testando APIs com Testes de Integração
-- [x] 5: _**Projeto** - API de Blogs_
-
-#### Bloco 25: Deployment
-
-- [x] 1: _Introdução - Deploy_
-- [x] 1: _Infraestrutura - Deploy com Heroku_
-- [x] 2: _Deploy Docker & Heroku_
-- [x] 3: _**Projeto** - Stranger Things_
-
-#### Bloco 26: TypeScript
-
-- [x] 1: _Introdução - TypeScript_
-- [x] 1: _Introdução ao TypeScript_
-- [x] 2: _Tipagem Estática e Generics_
-- [x] 3: _Express com TypeScript_
-- [x] 4: _**Projeto** Trybe Smith_
-
-#### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
-
-- [x] 1: _Introdução à Orientação a Objetos_
-- [x] 2: _Herança e Interfaces_
-- [x] 3: _Polimorfismo_
-- [x] 4: _SOLID - Introdução_
-- [x] 5: _SOLID - Continuação_
-- [x] 6: _**Projeto** - Trybers and Dragons_
-
-#### Bloco 28: Projeto - TFC - Trybe Futebol Clube
-
-- [x] 1: _**Projeto** - TFC - Trybe Futebol Clube_
-
-#### Bloco 29: Introdução ao MongoDB
-
-- [x] 1: _MongoDB - Introdução_
-- [x] 2: _Filter Operators_
-- [x] 3: _Operadores de consulta_
-- [x] 4: _Updates Simples_
-- [x] 5: _Updates Complexos - Arrays_
-- [x] 6: _**Projeto** - Commerce_
-
-#### Bloco 30: MongoDB com Node.js e POO
-
-- [x] 1: _Mongoose e arquitetura MSC (Camada Model)_
-- [x] 2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
-- [x] 4: _**Projeto** - Car Shop_
-
-#### Bloco 31: Projeto - App de Delivery
-
-- [x] 1: _**Projeto** - App de Delivery_
-
-#### Bloco 32: MasterClass - VPS, CI/CD
-
-- [x] 1: _Dia 1_
-- [x] 2: _Dia 2_
-
-
-
-## <u>Ciência da Computação</u> :hourglass_flowing_sand:
-
-#### Bloco 33: Introdução à Python
-
-- [x] 1: _Introdução - Ciência da Computação_
-- [x] 1: _Aprendendo Python_
-- [x] 2: _Entrada e Saída de Dados_
-- [x] 3: _Testes_
-- [x] 4: _**Projeto** - Job Insights_
-
-#### Bloco 34: Padrões de Projeto
-
-- [x] 1: _P.O.O. em Python_
-- [x] 2: _Padrões - Iterator, Adapter e Strategy_
-- [x] 3: _Padrões - Decorator, Observer e Factory_
-- [x] 4: _**Projeto** - Relatórios de Estoque_
-
-#### Bloco 35: Redes e Raspagem de Dados
-
-- [x] 1: _Arquitetura de redes_
-- [x] 2: _Raspagem de Dados_
-- [x] 3: _Outras Ferramentas de Raspagem de Dados_
-- [x] 4: _**Projeto** - Tech news_
-
-#### Bloco 36: Algoritmos
-
-- [x] 1: _Complexidade de Algoritmos_
-- [x] 2: _Recursividade e Estratégias para a solução de problemas_
-- [x] 3: _Algoritmos de ordenação e busca_
-- [x] 4: _**Projeto** - Algoritmos_
-
-#### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
-
-- [x] 1: _Arquitetura de Computadores_
-- [x] 2: _Arrays_
-- [x] 3: _Nó e Listas Encadeadas_
-- [x] 4: _Pilhas e Filas_
-- [x] 5: _**Projeto** - TING - Trybe Is Not Google_
-
-#### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
-
-- [x] 1: _Hashmap e Dict_
-- [x] 2: _Set_
-- [x] 3: _**Projeto** - Restaurant Orders_
-
-
-
-# <u>Aceleração em Java</u>
+## <u>Aceleração em Java</u>
 
 A aceleração é uma **formação complementar** concedida pela [Trybe](https://www.betrybe.com/) em parceria com as empresas parceiras do [Hub Floripa](https://hubfloripa.com.br/), nela aprendemos uma nova stack tecnológica desde o básico até as funções principais da linguagem.
 
-## <u>Desenvolvimento com Java</u>
 
-#### Bloco 1: Essenciais de Java
 
-- [x] 1: _Java - Introdução_
-- [x] 2: _Variáveis e seus tipos_
-- [x] 3: _Estruturas condicionais e de repetição_
-- [x] 4: _Finalmente o "Hello, world!" em Java_
-- [x] 5: _Conhecendo melhor o Eclipse_
-- [x] 6: _**Projeto** - Controle de Acesso_
+## <u>Sumário:</u>
 
-#### Bloco 2: Orientação a Objetos
+#### <u>Fundamentos do Desenvolvimento Web</u>
 
-- [x] 1: _Abstração - As Classes em Java_
-- [x] 2: _Getters e Setters_
-- [x] 3: _Encapsulamento e Herança_
-- [x] 4: _Polimorfismo_
-- [x] 5: _Interfaces e Classes Abstratas_
-- [x] 6: _**Projeto** - Sistema de Votação_
+✔️ **Bloco 1: Introdução - Unix & Bash**
 
-#### Bloco 3: Manipulação de Textos e Arquivos
+**✔️ Bloco 2: Git & GitHub e Internet**
 
-- [x] 1: _Leitura e escrita em arquivos_
-- [x] 2: _Lidando com Strings_
-- [x] 3: _**Projeto** - Conversor CSV_
+**✔️ Bloco 3: Introdução à HTML & CSS**
 
-#### Bloco 4: Tratamento de Erros
+**✔️ Bloco 4: Introdução à JavaScript e Lógica de Programação**
 
-- [x] 1: _Try/Catch! As exceções que Java lança e as formas de pegá-las_
-- [x] 2: _Refinando o tratamento de erros_
-- [x] 3: _**Projeto** - Simulador de Pix_
+**✔️ Bloco 5: JavaScript: DOM, Eventos e Web Storage**
 
-#### Bloco 5: Coleções
+**✔️ Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo**
 
-- [x] 1: _List e Set_
-- [x] 2: _Map_
-- [x] 3: _Streams: O que são e como criá-las_
-- [x] 4: _Operando sobre Streams_
-- [x] 5: _**Projeto** - Consulta de Filmes_
+**✔️ Bloco 7: Introdução à JavaScript ES6 e Testes Unitários**
 
-#### Bloco 6: Datas
+**✔️ Bloco 8: Higher Order Functions do JavaScript ES6**
 
-- [x] 1: _Datas com horários_
-- [x] 2: _Operações sobre datas ou harários_
-- [x] 3: _**Projeto** - Planejamento de Viagem_
+**✔️ Bloco 9: JavaScript e Testes Assíncronos**
 
-#### Bloco 7: Gestão de Dependências
+#### <u>Desenvolvimento Front-end</u>
 
-- [x] 1: _Maven e Gradle_
-- [ ] 2: _**Projeto** - Bank Account_
+**✔️ Bloco 10: Introdução à React**
 
-#### Bloco 8: Testes com JUnit5
+**✔️ Bloco 11: Componentes com Estado, Eventos e Formulários com React**
 
-- [ ] 1: _Testes unitários com JUnit5_
-- [ ] 2: _TDD com JUnit5_
-- [ ] 3: _**Projeto** - Caixa Eletrônico_
+**✔️ Bloco 12: Ciclo de Vida de Componentes e React Router**
 
-#### Bloco 9: ORM - Hibernate
+**✔️ Bloco 13: Metodologias Ágeis**
 
-- [ ] 1: _Criando entidades_
-- [ ] 2: _Relacionamentos e consultas_
-- [ ] 3: _**Projeto** - Gestão do Time_
+**✔️ Bloco 14: Testes automatizados com React Testing Library**
 
-#### Bloco 10: Java Web
+**✔️ Bloco 15: Gerenciamento de estado com Redux**
 
-- [ ] 1: _Como o Java vai para a Web_
-- [ ] 2: _Logs e Datasources_
-- [ ] 3: _Fazendo deploy de uma aplicação_
-- [ ] 4: _**Projeto** - Cadastro Especial de Idades_
+**✔️ Bloco 16: Projeto Jogo de Trivia**
 
-#### Bloco 11: Spring
+**✔️ Bloco 17: React & Context API**
 
-- [ ] 1: _Introdução ao Spring e Spring Boot_
-- [ ] 2: _Injeção de Dependências e organização de uma aplicação Spring_
-- [ ] 3: _REST, SQL e NoSQL_
-- [ ] 4: _Testes no Spring_
-- [ ] 5: _Deploy da aplicação Spring com Railway_
-- [ ] 6: _**Projeto** - Minhas Series_
+**✔️ Bloco 18: Projeto App de Receitas**
 
-#### Bloco 12: Quarkus
+#### <u>Desenvolvimento Back-end</u>
 
-- [ ] 1: _Introdução ao Quarkus_
-- [ ] 2: _API C.R.U.D. com tratamento de exceções_
-- [ ] 3: _Testes com JUnit e Deploy no Railway_
-- [ ] 4: _**Projeto** - Programa de Milhas_
+**✔️ Bloco 19: Docker: Utilizando Containers**
 
-#### Bloco 13: Containers
+**✔️ Bloco 20: Introdução à SQL**
 
-- [ ] 1: _Java e Docker_
-- [ ] 2: _**Projeto** - Gerenciador de Estoque_
+**✔️ Bloco 21: Funções SQL, JOINs e Normalização**
+
+**✔️ Bloco 22: Introdução ao desenvolvimento Web com Node.js**
+
+**✔️ Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful**
+
+**✔️ Bloco 24: Node.js: ORM e Autenticação**
+
+**✔️ Bloco 25: Deployment**
+
+**✔️ Bloco 26: TypeScript**
+
+**✔️ Bloco 27: Programação Orientada a Objetos (POO) e SOLID**
+
+**✔️ Bloco 28: Projeto - TFC - Trybe Futebol Clube**
+
+**✔️ Bloco 29: Introdução ao MongoDB**
+
+**✔️ Bloco 30: MongoDB com Node.js e POO**
+
+**✔️ Bloco 31: Projeto - App de Delivery**
+
+**✔️ Bloco 32: MasterClass - VPS, CI/CD**
+
+#### <u>Ciência da Computação</u>
+
+**✔️ Bloco 33: Introdução à Python**
+
+**✔️ Bloco 34: Padrões de Projeto**
+
+**✔️ Bloco 35: Redes e Raspagem de Dados**
+
+**✔️ Bloco 36: Algoritmos**
+
+**✔️ Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas**
+
+**✔️ Bloco 38: Estrutura de Dados II: Hashmaps e Sets**
+
+#### <u>Desenvolvimento com Java</u>
+
+**✔️ Bloco 1: Essenciais de Java**
+
+**✔️ Bloco 2: Orientação a Objetos**
+
+**✔️ Bloco 3: Manipulação de Textos e Arquivos**
+
+**✔️ Bloco 4: Tratamento de Erros**
+
+**✔️ Bloco 5: Coleções**
+
+**✔️ Bloco 6: Datas**
+
+**✔️ Bloco 7: Gestão de Dependências**
+
+**✔️ Bloco 8: Testes com JUnit5**
+
+**✔️ Bloco 9: ORM - Hibernate**
+
+**✔️ Bloco 10: Java Web**
+
+**✔️ Bloco 11: Spring**
+
+**✔️ Bloco 12: Quarkus**
+
+**✔️ Bloco 13: Containers**
 
