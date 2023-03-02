@@ -57,9 +57,9 @@ Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo d
 
 #### Bloco 8: Testes com JUnit5
 
-- [ ] 1: _Testes unitários com JUnit5_
-- [ ] 2: _TDD com JUnit5_
-- [ ] 3: _**Projeto** - Caixa Eletrônico_
+- [x] 1: _Testes unitários com JUnit5_
+- [x] 2: _TDD com JUnit5_
+- [x] 3: _**Projeto** - Caixa Eletrônico_
 
 #### Bloco 9: ORM - Hibernate
 
