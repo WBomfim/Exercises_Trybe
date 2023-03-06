@@ -63,9 +63,9 @@ Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo d
 
 #### Bloco 9: ORM - Hibernate
 
-- [ ] 1: _Criando entidades_
-- [ ] 2: _Relacionamentos e consultas_
-- [ ] 3: _**Projeto** - Gestão do Time_
+- [x] 1: _Criando entidades_
+- [x] 2: _Relacionamentos e consultas_
+- [x] 3: _**Projeto** - Gestão do Time_
 
 #### Bloco 10: Java Web
 
