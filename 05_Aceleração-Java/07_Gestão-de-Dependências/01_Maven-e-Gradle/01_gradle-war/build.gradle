@@ -1,0 +1,42 @@
+plugins {
+    id("java")
+    id("war")
+    id("eclipse")
+    id("checkstyle")
+}
+
+configurations {
+  checkstyleOverride
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.apache.commons:commons-lang3:3.11")
+    implementation("com.google.guava:guava:31.1-jre")
+    testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+    testImplementation('org.junit.platform:junit-platform-engine:+')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+checkstyle {
+    toolVersion = "9.2.1"
+    configFile = rootProject.file("config/checkstyle/google_checks.xml")
+    sourceSets = [sourceSets.main]
+    configProperties = [
+            "configDir": rootProject.file("config/checkstyle"),
+            "baseDir": rootDir,
+    ]
+    showViolations = true
+    ignoreFailures = false
+    maxWarnings = 0
+}
+
+checkstyleTest {
+    enabled = true
+} 
