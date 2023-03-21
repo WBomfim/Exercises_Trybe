@@ -69,19 +69,19 @@ Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo d
 
 #### Bloco 10: Java Web
 
-- [ ] 1: _Como o Java vai para a Web_
-- [ ] 2: _Logs e Datasources_
-- [ ] 3: _Fazendo deploy de uma aplicação_
-- [ ] 4: _**Projeto** - Cadastro Especial de Idades_
+- [x] 1: _Como o Java vai para a Web_
+- [x] 2: _Logs e Datasources_
+- [x] 3: _Fazendo deploy de uma aplicação_
+- [x] 4: _**Projeto** - Cadastro Especial de Idades_
 
 #### Bloco 11: Spring
 
-- [ ] 1: _Introdução ao Spring e Spring Boot_
-- [ ] 2: _Injeção de Dependências e organização de uma aplicação Spring_
-- [ ] 3: _REST, SQL e NoSQL_
-- [ ] 4: _Testes no Spring_
-- [ ] 5: _Deploy da aplicação Spring com Railway_
-- [ ] 6: _**Projeto** - Minhas Series_
+- [x] 1: _Introdução ao Spring e Spring Boot_
+- [x] 2: _Injeção de Dependências e organização de uma aplicação Spring_
+- [x] 3: _REST, SQL e NoSQL_
+- [x] 4: _Testes no Spring_
+- [x] 5: _Deploy da aplicação Spring com Railway_
+- [x] 6: _**Projeto** - Minhas Series_
 
 #### Bloco 12: Quarkus
 
