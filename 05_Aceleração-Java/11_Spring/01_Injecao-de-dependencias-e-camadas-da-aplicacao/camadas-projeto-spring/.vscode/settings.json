@@ -1,0 +1,5 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.checkstyle.version": "10.9.2",
+  "java.checkstyle.configuration": "/home/wbomfim/Documentos/Configurações/checkstyle_google.xml"
+}
