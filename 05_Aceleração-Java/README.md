@@ -85,8 +85,8 @@ Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo d
 
 #### Bloco 12: Quarkus
 
-- [ ] 1: _Introdução ao Quarkus_
-- [ ] 2: _API C.R.U.D. com tratamento de exceções_
+- [x] 1: _Introdução ao Quarkus_
+- [x] 2: _API C.R.U.D. com tratamento de exceções_
 - [ ] 3: _Testes com JUnit e Deploy no Railway_
 - [ ] 4: _**Projeto** - Programa de Milhas_
 
