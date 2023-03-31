@@ -87,8 +87,8 @@ Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo d
 
 - [x] 1: _Introdução ao Quarkus_
 - [x] 2: _API C.R.U.D. com tratamento de exceções_
-- [ ] 3: _Testes com JUnit e Deploy no Railway_
-- [ ] 4: _**Projeto** - Programa de Milhas_
+- [x] 3: _Testes com JUnit e Deploy no Railway_
+- [x] 4: _**Projeto** - Programa de Milhas_
 
 #### Bloco 13: Containers
 
