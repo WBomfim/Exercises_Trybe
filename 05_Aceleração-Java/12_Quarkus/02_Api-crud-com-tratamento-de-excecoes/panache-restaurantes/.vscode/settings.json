@@ -1,0 +1,4 @@
+{
+  "java.checkstyle.version": "10.9.3",
+  "java.debug.settings.onBuildFailureProceed": true
+}
