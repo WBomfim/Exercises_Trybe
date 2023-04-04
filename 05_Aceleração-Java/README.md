@@ -92,5 +92,5 @@ Esta pasta contém todas as atividades de aprendizagem que desenvolvi ao longo d
 
 #### Bloco 13: Containers
 
-- [ ] 1: _Java e Docker_
-- [ ] 2: _**Projeto** - Gerenciador de Estoque_
+- [x] 1: _Java e Docker_
+- [x] 2: _**Projeto** - Gerenciador de Estoque_
